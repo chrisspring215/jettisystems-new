@@ -1,0 +1,49 @@
+.global-nav
+{
+	background: $color-main;
+	box-shadow: $shadow;
+}
+
+.top-bar
+{
+	background: none;
+
+	a
+	{
+		background-color: $color-main;
+		color: white;
+		font-weight: 700;
+		text-transform: uppercase;
+		transition: $trans;
+
+		&:hover
+		{
+			background-color: $color-main - 10;
+			transition: $trans;
+		}
+	}
+
+	.active
+	{
+		background-color: $color-main - 20;
+		transition: $trans;
+
+
+		&:hover
+		{
+			background-color: $color-main - 10;
+			transition: $trans;
+		}
+	}
+}
+
+.title-bar
+{
+	background-color: $color-main;
+	box-shadow: $shadow;
+}
+
+.title-bar-title
+{
+	font-family: $roboto;
+}

@@ -1,29 +1,13 @@
 buildGlobalNav()
+buildAnalytics()
+
+
 
 // Builds out the global Navigation
 function buildGlobalNav() {
 
-	document.getElementById('globalNavContainer').innerHTML = '\
-	<div class="title-bar" data-responsive-toggle="global-navigation" data-hide-for="medium">\
-	  <button class="menu-icon" type="button" data-toggle></button>\
-	  <div class="title-bar-title">Menu</div>\
-	</div>\
-	<div class="top-bar" id="global-navigation">\
-	  <div class="top-bar-left">\
-	    <ul class="dropdown menu vertical medium-horizontal" data-dropdown-menu>\
-	      <li><a href="#" id="globalNavHomeButton" onclick="indexPush()">Site Title</a></li>\
-	    </ul>\
-	  </div>\
-	  <div class="top-bar-right">\
-	    <ul class="dropdown menu vertical medium-horizontal" data-dropdown-menu>\
-	      <li><a href="#" id="globalNavfirstButton" onclick="globalNavfirstPush()">Two</a></li>\
-	      <li><a href="#" id="globalNavsecondButton"  onclick="globalNavsecondPush()">Three</a></li>\
-	    </ul>\
-	  </div>\
-	</div>';
-
 	// Sets Home Button
-	document.getElementById('globalNavHomeButton').innerHTML = 'Jetti';
+	document.getElementById('globalNavHomeButton').innerHTML = 'Home';
 	document.getElementById('globalNavHomeButton').setAttribute('href', 'index.html');
 
 	// Sets First Link Button
@@ -35,6 +19,21 @@ function buildGlobalNav() {
 	document.getElementById('globalNavsecondButton').setAttribute('href', 'cats.html');
 }
 
-function indexPush() {
-	document.getElementById('globalNavHomeButton').setAttribute('class', 'active');
+
+// Builds out the script tag for analytics
+function buildAnalytics() {
+
+	document.getElementById('analyticsContainer').innerHTML = "\
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');\
+\
+ga('create', 'UA-64533681-1', 'auto');\
+ga('send', 'pageview');";
+	
+}
+
+function buildTypeface() {
+	getElementsByName('typeface').setAttribute('href', "<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>")
 }

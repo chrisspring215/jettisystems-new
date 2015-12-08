@@ -1,0 +1,15 @@
+button, .button
+{
+	font-family: $roboto;
+	box-shadow: $shadow;
+	background: $color-main;
+	font-weight: 700;
+	margin-top: 1.5em;
+	transition: $trans;
+
+	&:hover
+	{
+		background: $color-main - 20;
+		transition: $trans;
+	}
+}

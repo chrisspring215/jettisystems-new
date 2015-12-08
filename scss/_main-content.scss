@@ -1,0 +1,19 @@
+.main-content
+{
+	.content-container
+	{
+		padding-top: 4em;
+		padding-bottom: 4em;
+	}
+
+	.hero
+	{
+		background: $dark-text;
+
+		h1, h2, p
+		{
+			color: $white;
+		}
+		
+	}
+}

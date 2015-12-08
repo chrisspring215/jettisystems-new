@@ -1,0 +1,271 @@
+$roboto: 'Roboto Condensed', sans-serif;
+
+/* RESETS */
+h1, h2, h3, h4, h5, h6, p, caption, ul, li, th, td, input, textarea, select, option, legend, fieldset
+{
+	/* margin: 0;
+	padding: 0; */
+	font-family: $roboto;
+	color: $dark-text;
+}
+
+label
+{
+	font-family: $roboto;
+	font-weight: 700;
+	color: $dark-text;
+}
+
+blockquote
+{
+	font-family: $roboto;
+	font-style: italic;
+}
+
+ul, ol, dl
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+/* SETUP */
+$baseFontSize: 1em;
+
+/* PHONES */
+@media only screen{ 
+
+	body
+	{
+		font-size: $baseFontSize;
+	}
+
+	.main-content
+	{
+		h1
+		{
+			font-size:   $baseFontSize * 2;
+			line-height: $baseFontSize * 1.10;
+			margin-bottom:  $baseFontSize * .35;
+			font-weight: 700;
+		}
+
+		h2
+		{
+			font-size: $baseFontSize * 1.65;
+			line-height: $baseFontSize * 1.10;
+			margin-bottom:  $baseFontSize * .30;
+			font-weight: 300;
+		}
+
+		h3
+		{
+			font-size: $baseFontSize * 1.50;
+			line-height: $baseFontSize * 1.10;
+			margin-bottom:  $baseFontSize * .30;
+			font-weight: 700;
+			font-style: italic;
+		}
+
+		h4
+		{
+			font-size: $baseFontSize * 1.25;
+			line-height: $baseFontSize * 1.10;
+			margin-bottom:  $baseFontSize * .30;
+			font-weight: 700;
+		}
+
+		p
+		{
+			font-size: $baseFontSize * 1.25;
+			line-height: $baseFontSize * 1.20;
+			margin-bottom: $baseFontSize * .50;
+		}
+
+		ul, ol, dl, caption, th, td, input, textarea, select, option, legend, fieldset
+		{
+			font-size: $baseFontSize * 1.20;
+			line-height: $baseFontSize * 1.10;
+			margin-bottom: $baseFontSize * .35;
+		}
+
+		ul, ol, dl
+		{
+			margin-top: $baseFontSize * 1;
+			margin-left: $baseFontSize * 1;
+			margin-bottom: $baseFontSize * 1;
+		}
+
+		li
+		{
+			font-size: $baseFontSize * 1;
+			line-height: $baseFontSize * 1.10;
+			margin-bottom: $baseFontSize * .40;
+		}
+
+		blockquote
+		{
+			font-size: $baseFontSize * 1.25;
+			line-height: $baseFontSize * 1.25;
+		}
+	}
+}
+
+/* TABLETS */
+@media only screen and (min-width: 40.063em) {
+
+	body
+	{
+		font-size: $baseFontSize;
+	}
+
+	.main-content
+	{
+		h1
+		{
+			font-size:   $baseFontSize * 2.5;
+			line-height: $baseFontSize * 1.10;
+			margin-bottom:  $baseFontSize * .35;
+			font-weight: 700;
+		}
+
+		h2
+		{
+			font-size: $baseFontSize * 2;
+			line-height: $baseFontSize * 1.10;
+			margin-bottom:  $baseFontSize * .30;
+			font-weight: 300;
+		}
+
+		h3
+		{
+			font-size: $baseFontSize * 1.75;
+			line-height: $baseFontSize * 1.10;
+			margin-bottom:  $baseFontSize * .30;
+			font-weight: 700;
+			font-style: italic;
+		}
+
+		h4
+		{
+			font-size: $baseFontSize * 1.25;
+			line-height: $baseFontSize * 1.10;
+			margin-bottom:  $baseFontSize * .30;
+			font-weight: 700;
+		}
+
+		p
+		{
+			font-size: $baseFontSize * 1.25;
+			line-height: $baseFontSize * 1.20;
+			margin-bottom: $baseFontSize * .50;
+		}
+
+		ul, ol, dl, caption, th, td, input, textarea, select, option, legend, fieldset
+		{
+			font-size: $baseFontSize * 1.20;
+			line-height: $baseFontSize * 1.10;
+			margin-bottom: $baseFontSize * .35;
+		}
+
+		ul, ol, dl
+		{
+			margin-top: $baseFontSize * 1;
+			margin-left: $baseFontSize * 1;
+			margin-bottom: $baseFontSize * 1;
+		}
+
+		li
+		{
+			font-size: $baseFontSize * 1;
+			line-height: $baseFontSize * 1.10;
+			margin-bottom: $baseFontSize * .40;
+		}
+
+		blockquote
+		{
+			font-size: $baseFontSize * 1.50;
+			line-height: $baseFontSize * 1.25;
+		}
+	}
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 64.063em) {
+
+	body
+	{
+		font-size: $baseFontSize;
+	}
+
+	.main-content
+	{
+		h1
+		{
+			font-size:   $baseFontSize * 3.25;
+			line-height: $baseFontSize * 1.10;
+			margin-bottom:  $baseFontSize * .35;
+			font-weight: 700;
+		}
+
+		h2
+		{
+			font-size: $baseFontSize * 2.50;
+			line-height: $baseFontSize * 1.10;
+			margin-bottom:  $baseFontSize * .30;
+			font-weight: 300;
+		}
+
+		h3
+		{
+			font-size: $baseFontSize * 1.75;
+			line-height: $baseFontSize * 1.10;
+			margin-bottom:  $baseFontSize * .30;
+			font-weight: 700;
+			font-style: italic;
+		}
+
+		h4
+		{
+			font-size: $baseFontSize * 1.5;
+			line-height: $baseFontSize * 1.10;
+			margin-bottom:  $baseFontSize * .30;
+			font-weight: 700;
+		}
+
+		p
+		{
+			font-size: $baseFontSize * 1.5;
+			line-height: $baseFontSize * 1.20;
+			margin-bottom: $baseFontSize * .50;
+		}
+
+		ul, ol, dl, caption, th, td, input, textarea, select, option, legend, fieldset
+		{
+			font-size: $baseFontSize * 1.25;
+			line-height: $baseFontSize * 1.10;
+			margin-bottom: $baseFontSize * .35;
+		}
+
+		ul, ol, dl
+		{
+			margin-top: $baseFontSize * 1;
+			margin-left: $baseFontSize * 1;
+			margin-bottom: $baseFontSize * 1;
+		}
+
+		li
+		{
+			font-size: $baseFontSize * 1;
+			line-height: $baseFontSize * 1.10;
+			margin-bottom: $baseFontSize * .40;
+		}
+
+		blockquote
+		{
+			font-size: $baseFontSize * 1.50;
+			line-height: $baseFontSize * 1.25;
+		}
+	}
+}

@@ -6,26 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jetti Systems</title>
     <link rel="stylesheet" href="css/app.css" />
-    
+    <link type='text/css' name="typeface">
   </head>
   <body>
 
     <!-- Build.js > buildNav() -->
-    <nav id="globalNavContainer"> 
+    <nav id="globalNavContainer" class="global-nav">
+        <div class="title-bar" data-responsive-toggle="global-navigation" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle></button>
+          <div class="title-bar-title">MENU</div>
+        </div>
+        <div class="top-bar" id="global-navigation">
+          <div class="row">
+            <div class="top-bar-left">
+              <ul class="dropdown menu vertical medium-horizontal" data-dropdown-menu>
+                <li><a href="#" id="globalNavHomeButton">Site Title</a></li>
+              </ul>
+            </div>
+            <div class="top-bar-right">
+              <ul class="dropdown menu vertical medium-horizontal" data-dropdown-menu>
+                <li><a href="#" id="globalNavfirstButton"></a></li>
+                <li><a href="#" id="globalNavsecondButton" class="active"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </nav>
 
-    <main id="mainContentContainer">
-
+    <main id="mainContentContainer" class="main-content">
+      <div class="content-container hero">
+        <div class="row">
+          <div class="medium-8 columns small-centered text-center">
+            <h1>Simply the best customer email gathering tool for restaurants.<small></small></h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="medium-6 columns medium-centered text-center">
+            <h2>Simply the best customer email gather tool on the marke</h2>
+            <p>Simply the best customer email gather tool on the marke Simply the best customer email gather tool on the marke Simply the best customer email gather tool on the marke Simply the best customer email gather tool on the marke Simply the best customer email gather tool on the marke</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="medium-4 columns small-centered text-center">
+            <a href="" class="button expanded">LEARN MORE</a>
+          </div>
+        </div>
+      </div>
+          
     </main>
 
     <footer>
     </footer>
+
+    <script id="analyticsContainer">
+        
+    </script>
 
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>
     <script src="js/build.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/app.js"></script>
+
+    
+    
 
   </body>
 </html>
