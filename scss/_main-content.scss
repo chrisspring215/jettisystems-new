@@ -5,11 +5,13 @@
 		padding-top: 4em;
 		padding-bottom: 4em;
 		box-shadow: $shadow;
+		position: relative;
 	}
 
 	.hero
 	{
 		background: $dark-text;
+		z-index: 40;
 		
 		h1, h2, p
 		{
@@ -19,12 +21,18 @@
 
 	.pitch
 	{
+		z-index: 30;
 
+		img
+		{
+			box-shadow: $shadow;
+		}
 	}
 
 	.benefits
 	{
 		background: $color-main;
+		z-index: 20;
 
 		h1, h2, p, ul, li
 		{
@@ -41,6 +49,7 @@
 	.analytics
 	{
 		background: $white;
+		z-index: 10;
 
 		h1, h2, p, ul, li
 		{
