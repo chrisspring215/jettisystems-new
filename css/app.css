@@ -5155,14 +5155,14 @@ ul, ol, dl {
   .main-content h1 {
     font-size: 2em;
     line-height: 1.1em;
-    margin-bottom: 0.35em;
+    margin-bottom: 0.05em;
     font-weight: 700;
   }
   /* line 55, ../scss/_type.scss */
   .main-content h2 {
     font-size: 1.65em;
     line-height: 1.1em;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.55em;
     font-weight: 300;
   }
   /* line 63, ../scss/_type.scss */
@@ -5357,6 +5357,16 @@ button:hover, .button:hover {
   transition: all 250ms;
 }
 
+/* line 18, ../scss/_buttons.scss */
+.menu-icon {
+  margin-top: 0;
+  box-shadow: none;
+}
+/* line 23, ../scss/_buttons.scss */
+.menu-icon:hover {
+  background: none;
+}
+
 /* line 2, ../scss/_global-nav.scss */
 .global-nav {
   background: #ff5722;
@@ -5406,12 +5416,39 @@ button:hover, .button:hover {
 .main-content .content-container {
   padding-top: 4em;
   padding-bottom: 4em;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
-/* line 10, ../scss/_main-content.scss */
+/* line 11, ../scss/_main-content.scss */
 .main-content .hero {
   background: #444444;
 }
-/* line 14, ../scss/_main-content.scss */
+/* line 15, ../scss/_main-content.scss */
 .main-content .hero h1, .main-content .hero h2, .main-content .hero p {
   color: white;
+}
+/* line 26, ../scss/_main-content.scss */
+.main-content .benefits {
+  background: #ff5722;
+}
+/* line 30, ../scss/_main-content.scss */
+.main-content .benefits h1, .main-content .benefits h2, .main-content .benefits p, .main-content .benefits ul, .main-content .benefits li {
+  color: white;
+}
+/* line 35, ../scss/_main-content.scss */
+.main-content .benefits hr {
+  border-color: white;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+/* line 42, ../scss/_main-content.scss */
+.main-content .analytics {
+  background: white;
+}
+/* line 46, ../scss/_main-content.scss */
+.main-content .analytics h1, .main-content .analytics h2, .main-content .analytics p, .main-content .analytics ul, .main-content .analytics li {
+  color: #444444;
+}
+/* line 51, ../scss/_main-content.scss */
+.main-content .analytics .analytics-block {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }

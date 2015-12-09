@@ -4,16 +4,53 @@
 	{
 		padding-top: 4em;
 		padding-bottom: 4em;
+		box-shadow: $shadow;
 	}
 
 	.hero
 	{
 		background: $dark-text;
-
+		
 		h1, h2, p
 		{
 			color: $white;
 		}
-		
+	}
+
+	.pitch
+	{
+
+	}
+
+	.benefits
+	{
+		background: $color-main;
+
+		h1, h2, p, ul, li
+		{
+			color: $white;
+		}
+
+		hr
+		{
+			border-color: $white;
+			box-shadow: $shadow;
+		}
+	}
+
+	.analytics
+	{
+		background: $white;
+
+		h1, h2, p, ul, li
+		{
+			color: $dark-text;
+		}
+
+		.analytics-block
+		{
+			padding-top: 2em;
+			padding-bottom: 2em;
+		}
 	}
 }

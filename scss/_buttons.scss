@@ -13,3 +13,14 @@ button, .button
 		transition: $trans;
 	}
 }
+
+.menu-icon
+{
+	margin-top: 0;
+	box-shadow: none;
+
+	&:hover
+	{
+		background: none;
+	}
+}
