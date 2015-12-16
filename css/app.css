@@ -5154,8 +5154,8 @@ ul, ol, dl {
   /* line 47, ../scss/_type.scss */
   .main-content h1 {
     font-size: 2em;
-    line-height: 1.1em;
-    margin-bottom: 0.05em;
+    line-height: 1.05em;
+    margin-bottom: 0.2em;
     font-weight: 700;
   }
   /* line 55, ../scss/_type.scss */
@@ -5169,7 +5169,7 @@ ul, ol, dl {
   .main-content h3 {
     font-size: 1.5em;
     line-height: 1.1em;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.15em;
     font-weight: 700;
     font-style: italic;
   }
@@ -5177,7 +5177,7 @@ ul, ol, dl {
   .main-content h4 {
     font-size: 1.25em;
     line-height: 1.1em;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.15em;
     font-weight: 700;
   }
   /* line 80, ../scss/_type.scss */
@@ -5301,7 +5301,7 @@ ul, ol, dl {
   .main-content h3 {
     font-size: 1.75em;
     line-height: 1.1em;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.1em;
     font-weight: 700;
     font-style: italic;
   }
@@ -5309,7 +5309,7 @@ ul, ol, dl {
   .main-content h4 {
     font-size: 1.5em;
     line-height: 1.1em;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.1em;
     font-weight: 700;
   }
   /* line 238, ../scss/_type.scss */
@@ -5442,7 +5442,7 @@ button:hover, .button:hover {
   z-index: 20;
 }
 /* line 38, ../scss/_main-content.scss */
-.main-content .benefits h1, .main-content .benefits h2, .main-content .benefits p, .main-content .benefits ul, .main-content .benefits li {
+.main-content .benefits h1, .main-content .benefits h2, .main-content .benefits h3, .main-content .benefits p, .main-content .benefits ul, .main-content .benefits li {
   color: white;
 }
 /* line 43, ../scss/_main-content.scss */

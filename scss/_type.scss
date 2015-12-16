@@ -46,8 +46,8 @@ $baseFontSize: 1em;
 		h1
 		{
 			font-size:   $baseFontSize * 2;
-			line-height: $baseFontSize * 1.10;
-			margin-bottom:  $baseFontSize * .05;
+			line-height: $baseFontSize * 1.05;
+			margin-bottom:  $baseFontSize * .20;
 			font-weight: 700;
 		}
 
@@ -63,7 +63,7 @@ $baseFontSize: 1em;
 		{
 			font-size: $baseFontSize * 1.50;
 			line-height: $baseFontSize * 1.10;
-			margin-bottom:  $baseFontSize * .30;
+			margin-bottom:  $baseFontSize * .15;
 			font-weight: 700;
 			font-style: italic;
 		}
@@ -72,7 +72,7 @@ $baseFontSize: 1em;
 		{
 			font-size: $baseFontSize * 1.25;
 			line-height: $baseFontSize * 1.10;
-			margin-bottom:  $baseFontSize * .30;
+			margin-bottom:  $baseFontSize * .15;
 			font-weight: 700;
 		}
 
@@ -221,7 +221,7 @@ $baseFontSize: 1em;
 		{
 			font-size: $baseFontSize * 1.75;
 			line-height: $baseFontSize * 1.10;
-			margin-bottom:  $baseFontSize * .30;
+			margin-bottom:  $baseFontSize * .1;
 			font-weight: 700;
 			font-style: italic;
 		}
@@ -230,7 +230,7 @@ $baseFontSize: 1em;
 		{
 			font-size: $baseFontSize * 1.5;
 			line-height: $baseFontSize * 1.10;
-			margin-bottom:  $baseFontSize * .30;
+			margin-bottom:  $baseFontSize * .1;
 			font-weight: 700;
 		}
 
