@@ -5450,16 +5450,20 @@ button:hover, .button:hover {
   border-color: white;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
-/* line 50, ../scss/_main-content.scss */
+/* line 49, ../scss/_main-content.scss */
+.main-content .benefits .button {
+  border: 2px solid white;
+}
+/* line 55, ../scss/_main-content.scss */
 .main-content .analytics {
   background: white;
   z-index: 10;
 }
-/* line 55, ../scss/_main-content.scss */
+/* line 60, ../scss/_main-content.scss */
 .main-content .analytics h1, .main-content .analytics h2, .main-content .analytics p, .main-content .analytics ul, .main-content .analytics li {
   color: #444444;
 }
-/* line 60, ../scss/_main-content.scss */
+/* line 65, ../scss/_main-content.scss */
 .main-content .analytics .analytics-block {
   padding-top: 2em;
   padding-bottom: 2em;
