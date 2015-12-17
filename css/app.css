@@ -5412,59 +5412,102 @@ button:hover, .button:hover {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-/* line 4, ../scss/_main-content.scss */
+/* line 6, ../scss/_main-content.scss */
 .main-content .content-container {
   padding-top: 4em;
   padding-bottom: 4em;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   position: relative;
 }
-/* line 12, ../scss/_main-content.scss */
+/* line 14, ../scss/_main-content.scss */
 .main-content .hero {
-  background: #444444;
+  background: url(../img/background1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   z-index: 40;
 }
-/* line 17, ../scss/_main-content.scss */
+/* line 23, ../scss/_main-content.scss */
 .main-content .hero h1, .main-content .hero h2, .main-content .hero p {
   color: white;
 }
-/* line 23, ../scss/_main-content.scss */
+/* line 28, ../scss/_main-content.scss */
+.main-content .hero .button {
+  font-size: 1.25em;
+}
+/* line 34, ../scss/_main-content.scss */
 .main-content .pitch {
   z-index: 30;
 }
-/* line 27, ../scss/_main-content.scss */
+/* line 38, ../scss/_main-content.scss */
 .main-content .pitch img {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
-/* line 33, ../scss/_main-content.scss */
+/* line 44, ../scss/_main-content.scss */
 .main-content .benefits {
   background: #ff5722;
   z-index: 20;
 }
-/* line 38, ../scss/_main-content.scss */
+/* line 49, ../scss/_main-content.scss */
 .main-content .benefits h1, .main-content .benefits h2, .main-content .benefits h3, .main-content .benefits p, .main-content .benefits ul, .main-content .benefits li {
   color: white;
 }
-/* line 43, ../scss/_main-content.scss */
+/* line 54, ../scss/_main-content.scss */
 .main-content .benefits hr {
   border-color: white;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
-/* line 49, ../scss/_main-content.scss */
+/* line 60, ../scss/_main-content.scss */
 .main-content .benefits .button {
-  border: 2px solid white;
+  background: white;
+  color: #ff5722;
 }
-/* line 55, ../scss/_main-content.scss */
+/* line 65, ../scss/_main-content.scss */
+.main-content .benefits .button:hover {
+  background: #e63e09;
+  color: white;
+}
+/* line 73, ../scss/_main-content.scss */
 .main-content .analytics {
   background: white;
   z-index: 10;
 }
-/* line 60, ../scss/_main-content.scss */
+/* line 78, ../scss/_main-content.scss */
 .main-content .analytics h1, .main-content .analytics h2, .main-content .analytics p, .main-content .analytics ul, .main-content .analytics li {
   color: #444444;
 }
-/* line 65, ../scss/_main-content.scss */
+/* line 83, ../scss/_main-content.scss */
+.main-content .analytics h2 {
+  color: #ff5722;
+  font-weight: 300;
+}
+/* line 89, ../scss/_main-content.scss */
+.main-content .analytics p {
+  color: #666666;
+}
+/* line 94, ../scss/_main-content.scss */
 .main-content .analytics .analytics-block {
+  padding-top: 1.25em;
+  padding-bottom: .5em;
+}
+/* line 100, ../scss/_main-content.scss */
+.main-content .analytics .analytics-title {
+  padding-bottom: 0em;
+}
+/* line 105, ../scss/_main-content.scss */
+.main-content .analytics .small-page-divider {
+  padding-bottom: 1em;
+}
+
+/* line 2, ../scss/_footer.scss */
+.main-footer {
   padding-top: 2em;
   padding-bottom: 2em;
+  background-color: #232323;
+}
+/* line 8, ../scss/_footer.scss */
+.main-footer ul {
+  list-style-type: none;
+  margin-left: 0;
 }
