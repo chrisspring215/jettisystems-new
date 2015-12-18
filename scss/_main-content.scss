@@ -1,7 +1,5 @@
 .main-content
 {
-	
-
 	.content-container
 	{
 		padding-top: 4em;
@@ -18,15 +16,20 @@
 		-o-background-size: cover;
 		background-size: cover;
 		z-index: 40;
+		padding-top: 1em;
 		
 		h1, h2, p
 		{
 			color: $white;
 		}
-		
-		.button
+
+		.hero-logo
 		{
-			font-size: 1.25em;
+			font-family: $sansita;
+			color: $color-main;
+			font-size: 6em;
+			letter-spacing: -.025em;
+			text-shadow: $shadow-text;
 		}
 	}
 
@@ -60,6 +63,7 @@
 		{
 			background: $white;
 			color: $color-main;
+			font-size: .825em;
 
 			&:hover
 			{
@@ -110,6 +114,29 @@
 		{
 			
 		}
+	}
 
+	.objectives
+	{
+		.row
+		{
+			padding-bottom: 2em;
+		}
+
+		h2
+		{
+			color: $color-main;
+		}
+		.non-padded-row
+		{
+			padding-bottom: 1em;
+		}
+
+		img
+		{
+			margin-bottom: 1em;
+			margin-top: .5em;
+		}
 	}
 }
+

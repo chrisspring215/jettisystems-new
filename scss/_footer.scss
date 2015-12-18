@@ -3,10 +3,50 @@
 	padding-top: 2em;
 	padding-bottom: 2em;
 	background-color: $dark;
+	font-family: $roboto;
+
+	a
+	{
+		color: $color-main;
+	}
 
 	ul
 	{
 		list-style-type: none;
 		margin-left: 0;
+		
+	}
+
+	.footer-links
+	{
+		margin-bottom: 2em;
+	}
+
+	address
+	{
+		color: $white;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 1.4em;
+
+		.footer-logo
+		{
+			font-size: 2em;
+			line-height: 0;
+			font-weight: 700;
+			color: $color-main;
+			font-family: $sansita;
+		}
+	}
+}
+
+@media only screen and (min-width: 40.063em) {
+
+	.main-footer
+	{
+		.footer-links
+		{
+			margin-bottom: 0;
+		}
 	}
 }

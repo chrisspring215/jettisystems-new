@@ -2,6 +2,8 @@
 {
 	background: $color-main;
 	box-shadow: $shadow;
+	position: relative;
+	z-index: 1000;
 }
 
 .top-bar

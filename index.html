@@ -7,7 +7,12 @@
     
     <title>Jetti Rewards</title>
     <link rel="stylesheet" href="css/app.css" />
-    <link type="text/css" rel="stylesheet" id="typeface">
+
+    <!-- WEB FONTS -->
+    <link type="text/css" rel="stylesheet" id="typeface" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic">
+    <link type="text/css" rel="stylesheet" id="typeface2"href="https://fonts.googleapis.com/css?family=Sansita+One">
+    <!-- WEB FONTS -->
+
   </head>
   <body>
 
@@ -21,13 +26,24 @@
           <div class="row">
             <div class="top-bar-left">
               <ul class="dropdown menu vertical medium-horizontal" data-dropdown-menu>
-                <li><a href="#" id="globalNavHomeButton">Site Title</a></li>
+                <li><a href="#" id="globalNavHomeButton" class="global-nav-home-button">Site Title</a></li>
               </ul>
             </div>
             <div class="top-bar-right">
               <ul class="dropdown menu vertical medium-horizontal" data-dropdown-menu>
                 <li><a href="#" id="globalNavfirstButton"></a></li>
-                <li><a href="#" id="globalNavsecondButton" class="active"></a></li>
+                <li class="has-submenu">
+                  <a href="" id="globalNavsecondButton"></a>
+                  <ul class="submenu menu" data-submenu>
+                    <li><a id="globalNavsecond2-1Dropdown"></a></li>
+                    <li><a id="globalNavsecond2-2Dropdown"></a></li>
+                    <li><a id="globalNavsecond2-3Dropdown"></a></li>
+                  </ul>
+                </li>
+                <li><a href="#" id="globalNavthirdButton"></a></li>
+                <li><a href="#" id="globalNavfourthButton"></a></li>
+                <li><a href="#" id="globalNavfithButton"></a></li>
+                <li><a href="#" id="globalNavsixthButton"></a></li>
               </ul>
             </div>
           </div>
@@ -40,7 +56,12 @@
       <!-- HERO SECTION -->
       <div class="content-container hero">
         <div class="row">
-          <div class="medium-8 columns small-centered medium-text-center">
+          <div class="medium-8 columns small-centered text-center">
+            <span class="hero-logo">Jetti</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="medium-8 columns small-centered text-center">
             <h1>The Premier Rewards Program for Full-Service Restaurants</h1>
           </div>
         </div>
@@ -52,7 +73,7 @@
         </div>
         <div class="row">
           <div class="medium-4 columns small-centered text-center">
-            <a href="" class="button expanded">LEARN MORE</a>
+            <a href="restaurant-rewards-program.html" class="button expanded">LEARN MORE</a>
           </div>
         </div>
       </div>
@@ -64,23 +85,13 @@
         <div class="row">
 
           <!-- Left -->
-          <div class="medium-8 columns">
+          <div class="medium-5 columns">
 
             <div class="row">
               <div class="medium-12 columns">
                 <h2>Simply the best tool for engaging customers and driving positive ROI</h2>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="medium-12 columns">
                 <h3>Designed for speed and function</h3>
                 <p>Sign-up customers by the thousands, increase your PPA and generate increased visits and brand advocacy without disrupting your current email program.</p>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="medium-6 columns">
                 <a href="" class="button expanded ">GET STARTED</a>
               </div>
             </div>
@@ -89,11 +100,11 @@
           <!-- End Left -->
 
           <!-- Right -->
-          <div class="medium-4 columns">
+          <div class="medium-5 columns">
 
             <div class="row">
               <div class="medium-12 columns">
-                <img src="http://placehold.it/575x425">
+                <img src="http://placehold.it/575x450">
               </div>
             </div>
 
@@ -161,7 +172,7 @@
           <div class="small-12 medium-6 columns">
             <div class="row">
               <div class="small-12 columns text-center analytics-title">
-                <h3>WHAT OUR CUSTOMERS SAY</h3>
+                <h3>WHAT THE DATA SAYS</h3>
               </div>
               <div class="small-12 columns text-center analytics-block">
                 <h2>115 CUSTOMER SIGN-UPS<br>PER MONTH</h2>
@@ -196,7 +207,7 @@
                 <h3>WHAT OUR CUSTOMERS SAY</h3>
               </div>
               <div class="small-12 columns text-center analytics-block">
-                <h2 class="customer-quote">&#147;This is way better than rewards cards!&#148;</h2>
+                <h2 class="customer-quote">&#147;This is way better than a reward card!&#148;</h2>
                 <p>Alyssa C. - Loyalty Member</p>
               </div>
               <div class="small-12 medium-12 columns analytics-block">
@@ -227,10 +238,34 @@
 
     <footer class="main-footer">
       <div class="row">
-        <div class="small-12 columns">
-          <ul>
-            <li><a href="">LINK</a></li>
-          </ul>
+        <div class="small-12 medium-9 columns text-center footer-links">
+          <div class="row">
+            <div class="small-12 medium-4 columns">
+              <ul>
+                <li><a href="">LInk1</a></li>
+                <li>LInk1</li>
+                <li>LInk1</li>
+                <li>LInk1</li>
+              </ul>
+            </div>
+            <div class="small-12 medium-4 columns end">
+              <ul>
+                <li>LInk2</li>
+                <li>LInk2</li>
+                <li>LInk2</li>
+                <li>LInk2</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="small-12 medium-3 columns small-centered">
+          <address class="text-center">
+            <span class="footer-logo">Jetti</span> SYSTEMS<br>
+            215 W. Michigan Ave<br>
+            Ypsilanti, MI 48197<br>
+            <a href="mailto:sales@jettisystems.com">sales@jettisystems.com</a><br>
+            <a href="mailto:info@jettisystems.com">info@jettisystems.com</a><br>
+          </address>
         </div>
       </div>
     </footer>
