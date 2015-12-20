@@ -138,5 +138,28 @@
 			margin-top: .5em;
 		}
 	}
+
+	.sub-page-benefits
+	{
+		h2
+		{
+			color: $color-main;
+		}
+
+		.benefits-sub-nav
+		{
+			margin-bottom: 2em;
+
+			.button
+			{
+				margin-top: 0;
+			}
+
+			.active
+			{
+				background-color: #EB430E;
+			}
+		}
+	}
 }
 

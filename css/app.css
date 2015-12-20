@@ -5529,6 +5529,22 @@ button:hover, .button:hover {
   margin-bottom: 1em;
   margin-top: .5em;
 }
+/* line 145, ../scss/_main-content.scss */
+.main-content .sub-page-benefits h2 {
+  color: #ff5722;
+}
+/* line 150, ../scss/_main-content.scss */
+.main-content .sub-page-benefits .benefits-sub-nav {
+  margin-bottom: 2em;
+}
+/* line 154, ../scss/_main-content.scss */
+.main-content .sub-page-benefits .benefits-sub-nav .button {
+  margin-top: 0;
+}
+/* line 159, ../scss/_main-content.scss */
+.main-content .sub-page-benefits .benefits-sub-nav .active {
+  background-color: #EB430E;
+}
 
 /* line 2, ../scss/_footer.scss */
 .main-footer {

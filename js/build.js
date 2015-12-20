@@ -21,14 +21,17 @@ function buildGlobalNav() {
 	// Sets Second Link Button 2.1 Text
 	document.getElementById('globalNavsecond2-1Dropdown').innerHTML = 'CUSTOMER EMAILS';
 	document.getElementById('globalNavsecond2-1Dropdown').setAttribute('href', 'restaurant-rewards-benefits-customer-emails.html');
+	//document.getElementById('benefitsSubNav1').setAttribute('href', 'restaurant-rewards-benefits-customer-emails.html');
 
 	// Sets Second Link Button 2.2 Text
 	document.getElementById('globalNavsecond2-2Dropdown').innerHTML = 'DRIVE UPSELLING';
-	document.getElementById('globalNavsecond2-2Dropdown').setAttribute('href', 'restaurant-rewards-benefits-upselling.html');
+	document.getElementById('globalNavsecond2-2Dropdown').setAttribute('href', 'restaurant-rewards-benefits-customer-upselling.html');
+	//document.getElementById('benefitsSubNav2').setAttribute('href', 'restaurant-rewards-benefits-customer-upselling.html');
 
 	// Sets Second Link Button 2.2 Text
 	document.getElementById('globalNavsecond2-3Dropdown').innerHTML = 'BUILD LOYALTY';
-	document.getElementById('globalNavsecond2-3Dropdown').setAttribute('href', 'restaurant-rewards-benefits-brand-loyalty.html');
+	document.getElementById('globalNavsecond2-3Dropdown').setAttribute('href', 'restaurant-rewards-benefits-build-brand-loyalty.html');
+	//document.getElementById('benefitsSubNav3').setAttribute('href', 'restaurant-rewards-benefits-build-brand-loyalty.html');
 
 	// Sets Third Link Button
 	document.getElementById('globalNavthirdButton').innerHTML = 'PRICING';
