@@ -5133,9 +5133,13 @@ label {
 blockquote {
   font-family: "Roboto Condensed", sans-serif;
   font-style: italic;
+  margin-top: .75em;
+  margin-bottom: .75em;
+  margin-left: 1em;
+  border: none;
 }
 
-/* line 27, ../scss/_type.scss */
+/* line 31, ../scss/_type.scss */
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 0;
@@ -5146,26 +5150,26 @@ ul, ol, dl {
 /* SETUP */
 /* PHONES */
 @media only screen {
-  /* line 41, ../scss/_type.scss */
+  /* line 45, ../scss/_type.scss */
   body {
     font-size: 1em;
   }
 
-  /* line 48, ../scss/_type.scss */
+  /* line 52, ../scss/_type.scss */
   .main-content h1 {
     font-size: 2em;
     line-height: 1.05em;
     margin-bottom: 0.2em;
     font-weight: 700;
   }
-  /* line 56, ../scss/_type.scss */
+  /* line 60, ../scss/_type.scss */
   .main-content h2 {
     font-size: 1.65em;
     line-height: 1.1em;
     margin-bottom: 0.55em;
     font-weight: 300;
   }
-  /* line 64, ../scss/_type.scss */
+  /* line 68, ../scss/_type.scss */
   .main-content h3 {
     font-size: 1.5em;
     line-height: 1.1em;
@@ -5173,38 +5177,38 @@ ul, ol, dl {
     font-weight: 700;
     font-style: italic;
   }
-  /* line 73, ../scss/_type.scss */
+  /* line 77, ../scss/_type.scss */
   .main-content h4 {
     font-size: 1.25em;
     line-height: 1.1em;
     margin-bottom: 0.15em;
     font-weight: 700;
   }
-  /* line 81, ../scss/_type.scss */
+  /* line 85, ../scss/_type.scss */
   .main-content p {
     font-size: 1.25em;
     line-height: 1.2em;
     margin-bottom: 0.5em;
   }
-  /* line 88, ../scss/_type.scss */
+  /* line 92, ../scss/_type.scss */
   .main-content ul, .main-content ol, .main-content dl, .main-content caption, .main-content th, .main-content td, .main-content input, .main-content textarea, .main-content select, .main-content option, .main-content legend, .main-content fieldset {
     font-size: 1.2em;
     line-height: 1.1em;
     margin-bottom: 0.35em;
   }
-  /* line 95, ../scss/_type.scss */
+  /* line 99, ../scss/_type.scss */
   .main-content ul, .main-content ol, .main-content dl {
     margin-top: 1em;
     margin-left: 1em;
     margin-bottom: 1em;
   }
-  /* line 102, ../scss/_type.scss */
+  /* line 106, ../scss/_type.scss */
   .main-content li {
     font-size: 1em;
     line-height: 1.1em;
     margin-bottom: 0.4em;
   }
-  /* line 109, ../scss/_type.scss */
+  /* line 113, ../scss/_type.scss */
   .main-content blockquote {
     font-size: 1.25em;
     line-height: 1.25em;
@@ -5212,26 +5216,26 @@ ul, ol, dl {
 }
 /* TABLETS */
 @media only screen and (min-width: 40.063em) {
-  /* line 120, ../scss/_type.scss */
+  /* line 124, ../scss/_type.scss */
   body {
     font-size: 1em;
   }
 
-  /* line 127, ../scss/_type.scss */
+  /* line 131, ../scss/_type.scss */
   .main-content h1 {
     font-size: 2.5em;
     line-height: 1.1em;
     margin-bottom: 0.35em;
     font-weight: 700;
   }
-  /* line 135, ../scss/_type.scss */
+  /* line 139, ../scss/_type.scss */
   .main-content h2 {
     font-size: 2em;
     line-height: 1.1em;
     margin-bottom: 0.3em;
     font-weight: 300;
   }
-  /* line 143, ../scss/_type.scss */
+  /* line 147, ../scss/_type.scss */
   .main-content h3 {
     font-size: 1.75em;
     line-height: 1.1em;
@@ -5239,38 +5243,38 @@ ul, ol, dl {
     font-weight: 700;
     font-style: italic;
   }
-  /* line 152, ../scss/_type.scss */
+  /* line 156, ../scss/_type.scss */
   .main-content h4 {
     font-size: 1.25em;
     line-height: 1.1em;
     margin-bottom: 0.3em;
     font-weight: 700;
   }
-  /* line 160, ../scss/_type.scss */
+  /* line 164, ../scss/_type.scss */
   .main-content p {
     font-size: 1.25em;
     line-height: 1.2em;
     margin-bottom: 0.5em;
   }
-  /* line 167, ../scss/_type.scss */
+  /* line 171, ../scss/_type.scss */
   .main-content ul, .main-content ol, .main-content dl, .main-content caption, .main-content th, .main-content td, .main-content input, .main-content textarea, .main-content select, .main-content option, .main-content legend, .main-content fieldset {
     font-size: 1.2em;
     line-height: 1.1em;
     margin-bottom: 0.35em;
   }
-  /* line 174, ../scss/_type.scss */
+  /* line 178, ../scss/_type.scss */
   .main-content ul, .main-content ol, .main-content dl {
     margin-top: 1em;
     margin-left: 1em;
     margin-bottom: 1em;
   }
-  /* line 181, ../scss/_type.scss */
+  /* line 185, ../scss/_type.scss */
   .main-content li {
     font-size: 1em;
     line-height: 1.1em;
     margin-bottom: 0.4em;
   }
-  /* line 188, ../scss/_type.scss */
+  /* line 192, ../scss/_type.scss */
   .main-content blockquote {
     font-size: 1.5em;
     line-height: 1.25em;
@@ -5278,26 +5282,26 @@ ul, ol, dl {
 }
 /* DESKTOP */
 @media only screen and (min-width: 64.063em) {
-  /* line 199, ../scss/_type.scss */
+  /* line 203, ../scss/_type.scss */
   body {
     font-size: 1em;
   }
 
-  /* line 206, ../scss/_type.scss */
+  /* line 210, ../scss/_type.scss */
   .main-content h1 {
     font-size: 3.25em;
     line-height: 1.1em;
     margin-bottom: 0.35em;
     font-weight: 700;
   }
-  /* line 214, ../scss/_type.scss */
+  /* line 218, ../scss/_type.scss */
   .main-content h2 {
     font-size: 2.5em;
     line-height: 1.1em;
     margin-bottom: 0.3em;
     font-weight: 300;
   }
-  /* line 222, ../scss/_type.scss */
+  /* line 226, ../scss/_type.scss */
   .main-content h3 {
     font-size: 1.75em;
     line-height: 1.1em;
@@ -5305,38 +5309,38 @@ ul, ol, dl {
     font-weight: 700;
     font-style: italic;
   }
-  /* line 231, ../scss/_type.scss */
+  /* line 235, ../scss/_type.scss */
   .main-content h4 {
     font-size: 1.5em;
     line-height: 1.1em;
     margin-bottom: 0.1em;
     font-weight: 700;
   }
-  /* line 239, ../scss/_type.scss */
+  /* line 243, ../scss/_type.scss */
   .main-content p {
     font-size: 1.5em;
     line-height: 1.2em;
     margin-bottom: 0.5em;
   }
-  /* line 246, ../scss/_type.scss */
+  /* line 250, ../scss/_type.scss */
   .main-content ul, .main-content ol, .main-content dl, .main-content caption, .main-content th, .main-content td, .main-content input, .main-content textarea, .main-content select, .main-content option, .main-content legend, .main-content fieldset {
     font-size: 1.25em;
     line-height: 1.1em;
     margin-bottom: 0.35em;
   }
-  /* line 253, ../scss/_type.scss */
+  /* line 257, ../scss/_type.scss */
   .main-content ul, .main-content ol, .main-content dl {
     margin-top: 1em;
     margin-left: 1em;
     margin-bottom: 1em;
   }
-  /* line 260, ../scss/_type.scss */
+  /* line 264, ../scss/_type.scss */
   .main-content li {
     font-size: 1em;
     line-height: 1.1em;
     margin-bottom: 0.4em;
   }
-  /* line 267, ../scss/_type.scss */
+  /* line 271, ../scss/_type.scss */
   .main-content blockquote {
     font-size: 1.5em;
     line-height: 1.25em;

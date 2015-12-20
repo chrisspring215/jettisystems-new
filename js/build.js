@@ -24,11 +24,11 @@ function buildGlobalNav() {
 
 	// Sets Second Link Button 2.2 Text
 	document.getElementById('globalNavsecond2-2Dropdown').innerHTML = 'DRIVE UPSELLING';
-	document.getElementById('globalNavsecond2-2Dropdown').setAttribute('href', '');
+	document.getElementById('globalNavsecond2-2Dropdown').setAttribute('href', 'restaurant-rewards-benefits-upselling.html');
 
 	// Sets Second Link Button 2.2 Text
 	document.getElementById('globalNavsecond2-3Dropdown').innerHTML = 'BUILD LOYALTY';
-	document.getElementById('globalNavsecond2-3Dropdown').setAttribute('href', '');
+	document.getElementById('globalNavsecond2-3Dropdown').setAttribute('href', 'restaurant-rewards-benefits-brand-loyalty.html');
 
 	// Sets Third Link Button
 	document.getElementById('globalNavthirdButton').innerHTML = 'PRICING';
