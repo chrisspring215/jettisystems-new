@@ -161,5 +161,54 @@
 			}
 		}
 	}
+
+	.pricing
+	{
+		h2
+		{
+			color: $color-main;
+		}
+
+		.pricing-cost-container
+		{
+			background: $color-main;
+			color: $white;
+			border-radius: 50%;
+			width: 170px;
+			height: 170px;
+			box-shadow: $shadow;
+			display: inline-block;
+
+		}
+
+		.pricing-cost
+		{
+			font-size: 2.75em;
+			font-weight: 300;
+			padding-top: 60px;
+			line-height: .5em;
+			display: block;
+
+
+			span
+			{
+				font-size: .5em;
+				line-height: 0px;
+			}
+		}
+
+		.pricing-name
+		{
+			font-family: $roboto;
+			font-size: 2em;
+			margin-top: .5em;
+			display: block;
+		}
+
+		ul
+		{
+			margin-bottom: 3em;
+		}
+	}
 }
 

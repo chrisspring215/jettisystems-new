@@ -5545,6 +5545,44 @@ button:hover, .button:hover {
 .main-content .sub-page-benefits .benefits-sub-nav .active {
   background-color: #EB430E;
 }
+/* line 168, ../scss/_main-content.scss */
+.main-content .pricing h2 {
+  color: #ff5722;
+}
+/* line 173, ../scss/_main-content.scss */
+.main-content .pricing .pricing-cost-container {
+  background: #ff5722;
+  color: white;
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  display: inline-block;
+}
+/* line 185, ../scss/_main-content.scss */
+.main-content .pricing .pricing-cost {
+  font-size: 2.75em;
+  font-weight: 300;
+  padding-top: 60px;
+  line-height: .5em;
+  display: block;
+}
+/* line 194, ../scss/_main-content.scss */
+.main-content .pricing .pricing-cost span {
+  font-size: .5em;
+  line-height: 0px;
+}
+/* line 201, ../scss/_main-content.scss */
+.main-content .pricing .pricing-name {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2em;
+  margin-top: .5em;
+  display: block;
+}
+/* line 209, ../scss/_main-content.scss */
+.main-content .pricing ul {
+  margin-bottom: 3em;
+}
 
 /* line 2, ../scss/_footer.scss */
 .main-footer {
