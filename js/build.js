@@ -46,7 +46,7 @@ function buildGlobalNav() {
 
 	// Sets Fourth Link Button
 	document.getElementById('globalNavfourthButton').innerHTML = 'CONTACT US';
-	document.getElementById('globalNavfourthButton').setAttribute('href', 'cats.html');
+	document.getElementById('globalNavfourthButton').setAttribute('href', 'restaurant-rewards-contact-us.html');
 
 	// Sets Fith Link Button
 	document.getElementById('globalNavfithButton').innerHTML = 'LOG IN';
