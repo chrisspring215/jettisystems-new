@@ -5188,7 +5188,7 @@ ul, ol, dl {
   .main-content p {
     font-size: 1.25em;
     line-height: 1.2em;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
   }
   /* line 92, ../scss/_type.scss */
   .main-content ul, .main-content ol, .main-content dl, .main-content caption, .main-content th, .main-content td, .main-content input, .main-content textarea, .main-content select, .main-content option, .main-content legend, .main-content fieldset {
@@ -5254,7 +5254,7 @@ ul, ol, dl {
   .main-content p {
     font-size: 1.25em;
     line-height: 1.2em;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
   }
   /* line 171, ../scss/_type.scss */
   .main-content ul, .main-content ol, .main-content dl, .main-content caption, .main-content th, .main-content td, .main-content input, .main-content textarea, .main-content select, .main-content option, .main-content legend, .main-content fieldset {
@@ -5320,7 +5320,7 @@ ul, ol, dl {
   .main-content p {
     font-size: 1.5em;
     line-height: 1.2em;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
   }
   /* line 250, ../scss/_type.scss */
   .main-content ul, .main-content ol, .main-content dl, .main-content caption, .main-content th, .main-content td, .main-content input, .main-content textarea, .main-content select, .main-content option, .main-content legend, .main-content fieldset {
@@ -5419,14 +5419,14 @@ button:hover, .button:hover {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-/* line 4, ../scss/_main-content.scss */
+/* line 6, ../scss/_main-content.scss */
 .main-content .content-container {
   padding-top: 4em;
   padding-bottom: 4em;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   position: relative;
 }
-/* line 12, ../scss/_main-content.scss */
+/* line 14, ../scss/_main-content.scss */
 .main-content .hero {
   background: url(../img/background1.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -5436,11 +5436,11 @@ button:hover, .button:hover {
   z-index: 40;
   padding-top: 1em;
 }
-/* line 22, ../scss/_main-content.scss */
+/* line 24, ../scss/_main-content.scss */
 .main-content .hero h1, .main-content .hero h2, .main-content .hero p {
   color: white;
 }
-/* line 27, ../scss/_main-content.scss */
+/* line 29, ../scss/_main-content.scss */
 .main-content .hero .hero-logo {
   font-family: "Sansita One", cursive;
   color: #ff5722;
@@ -5448,138 +5448,183 @@ button:hover, .button:hover {
   letter-spacing: -0.025em;
   text-shadow: 2px 2px rgba(250, 250, 250, 0.75);
 }
-/* line 37, ../scss/_main-content.scss */
+/* line 39, ../scss/_main-content.scss */
 .main-content .pitch {
   z-index: 30;
 }
-/* line 41, ../scss/_main-content.scss */
+/* line 43, ../scss/_main-content.scss */
 .main-content .pitch img {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
-/* line 47, ../scss/_main-content.scss */
+/* line 49, ../scss/_main-content.scss */
 .main-content .benefits {
   background: #ff5722;
   z-index: 20;
 }
-/* line 52, ../scss/_main-content.scss */
+/* line 54, ../scss/_main-content.scss */
 .main-content .benefits h1, .main-content .benefits h2, .main-content .benefits h3, .main-content .benefits p, .main-content .benefits ul, .main-content .benefits li {
   color: white;
 }
-/* line 57, ../scss/_main-content.scss */
+/* line 59, ../scss/_main-content.scss */
 .main-content .benefits hr {
   border-color: white;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
-/* line 63, ../scss/_main-content.scss */
+/* line 65, ../scss/_main-content.scss */
 .main-content .benefits .button {
   background: white;
   color: #ff5722;
   font-size: .825em;
 }
-/* line 69, ../scss/_main-content.scss */
+/* line 71, ../scss/_main-content.scss */
 .main-content .benefits .button:hover {
   background: #e63e09;
   color: white;
 }
-/* line 77, ../scss/_main-content.scss */
+/* line 79, ../scss/_main-content.scss */
 .main-content .analytics {
   background: white;
   z-index: 10;
 }
-/* line 82, ../scss/_main-content.scss */
+/* line 84, ../scss/_main-content.scss */
 .main-content .analytics h1, .main-content .analytics h2, .main-content .analytics p, .main-content .analytics ul, .main-content .analytics li {
   color: #444444;
 }
-/* line 87, ../scss/_main-content.scss */
+/* line 89, ../scss/_main-content.scss */
 .main-content .analytics h2 {
   color: #ff5722;
   font-weight: 300;
 }
-/* line 93, ../scss/_main-content.scss */
+/* line 95, ../scss/_main-content.scss */
 .main-content .analytics p {
   color: #666666;
 }
-/* line 98, ../scss/_main-content.scss */
+/* line 100, ../scss/_main-content.scss */
 .main-content .analytics .analytics-block {
   padding-top: 1.25em;
   padding-bottom: .5em;
 }
-/* line 104, ../scss/_main-content.scss */
+/* line 106, ../scss/_main-content.scss */
 .main-content .analytics .analytics-title {
   padding-bottom: 0em;
 }
-/* line 109, ../scss/_main-content.scss */
+/* line 111, ../scss/_main-content.scss */
 .main-content .analytics .small-page-divider {
   padding-bottom: 1em;
 }
-/* line 122, ../scss/_main-content.scss */
+/* line 124, ../scss/_main-content.scss */
 .main-content .objectives .row {
   padding-bottom: 2em;
 }
-/* line 127, ../scss/_main-content.scss */
+/* line 129, ../scss/_main-content.scss */
 .main-content .objectives h2 {
   color: #ff5722;
 }
-/* line 131, ../scss/_main-content.scss */
+/* line 133, ../scss/_main-content.scss */
 .main-content .objectives .non-padded-row {
   padding-bottom: 1em;
 }
-/* line 136, ../scss/_main-content.scss */
+/* line 138, ../scss/_main-content.scss */
 .main-content .objectives img {
   margin-bottom: 1em;
   margin-top: .5em;
 }
-/* line 145, ../scss/_main-content.scss */
+/* line 147, ../scss/_main-content.scss */
 .main-content .sub-page-benefits h2 {
   color: #ff5722;
 }
-/* line 150, ../scss/_main-content.scss */
+/* line 152, ../scss/_main-content.scss */
 .main-content .sub-page-benefits .benefits-sub-nav {
   margin-bottom: 2em;
 }
-/* line 154, ../scss/_main-content.scss */
+/* line 156, ../scss/_main-content.scss */
 .main-content .sub-page-benefits .benefits-sub-nav .button {
   margin-top: 0;
 }
-/* line 159, ../scss/_main-content.scss */
+/* line 161, ../scss/_main-content.scss */
 .main-content .sub-page-benefits .benefits-sub-nav .active {
   background-color: #EB430E;
 }
-/* line 168, ../scss/_main-content.scss */
+/* line 170, ../scss/_main-content.scss */
 .main-content .pricing h2 {
   color: #ff5722;
 }
-/* line 173, ../scss/_main-content.scss */
+/* line 175, ../scss/_main-content.scss */
 .main-content .pricing .pricing-cost-container {
-  margin-top: 2em;
+  margin: 1em 0 2em 0;
 }
-/* line 178, ../scss/_main-content.scss */
-.main-content .pricing .pricing-cost {
-  font-size: 2.75em;
-  font-weight: 300;
-  padding-top: 60px;
-  line-height: .5em;
-}
-/* line 186, ../scss/_main-content.scss */
-.main-content .pricing .pricing-cost span {
-  font-size: .5em;
-  line-height: 0px;
-}
-/* line 193, ../scss/_main-content.scss */
+/* line 180, ../scss/_main-content.scss */
 .main-content .pricing .pricing-name {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 2em;
-  margin-top: .5em;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  font-weight: bold;
-  color: #444444;
-  display: inline-block;
+  margin-top: 1em;
+}
+/* line 185, ../scss/_main-content.scss */
+.main-content .pricing ul {
+  list-style-type: none;
+  margin: 0;
+}
+/* line 192, ../scss/_main-content.scss */
+.main-content .thank-you {
+  position: relative;
+  width: 100%;
+  height: 75vh;
+}
+/* line 197, ../scss/_main-content.scss */
+.main-content .thank-you h2 {
+  color: #ff5722;
 }
 /* line 205, ../scss/_main-content.scss */
-.main-content .pricing ul {
-  margin-bottom: 3em;
-  margin-left: 0;
+.main-content .insights h2 {
+  color: #ff5722;
+}
+/* line 210, ../scss/_main-content.scss */
+.main-content .insights ul {
+  list-style-type: none;
+  margin: 2em 0 0 0;
+}
+/* line 216, ../scss/_main-content.scss */
+.main-content .insights li {
+  border-bottom: 1px solid #eee;
+  padding: 2em 2em;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 250ms;
+}
+/* line 223, ../scss/_main-content.scss */
+.main-content .insights li:hover {
+  background-color: #eee;
+  transition: all 250ms;
+}
+/* line 230, ../scss/_main-content.scss */
+.main-content .insights .article-date {
+  color: #ff5722;
+}
+/* line 234, ../scss/_main-content.scss */
+.main-content .insights .button {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 243, ../scss/_main-content.scss */
+.main-content .insight h2 {
+  color: #ff5722;
+}
+/* line 248, ../scss/_main-content.scss */
+.main-content .insight img {
+  margin-bottom: 1em;
+}
+/* line 253, ../scss/_main-content.scss */
+.main-content .insight .related-articles-links {
+  list-style-type: none;
+}
+/* line 258, ../scss/_main-content.scss */
+.main-content .insight .article-tags {
+  color: #666666;
+  margin-bottom: .5em;
+  display: inline-block;
+  font-weight: 700;
+}
+/* line 265, ../scss/_main-content.scss */
+.main-content .insight .article-tags span {
+  font-weight: 400;
+  font-style: italic;
 }
 
 /* line 2, ../scss/_footer.scss */
@@ -5589,27 +5634,27 @@ button:hover, .button:hover {
   background-color: #232323;
   font-family: "Roboto Condensed", sans-serif;
 }
-/* line 9, ../scss/_footer.scss */
+/* line 10, ../scss/_footer.scss */
 .main-footer a {
   color: #ff5722;
 }
-/* line 14, ../scss/_footer.scss */
+/* line 15, ../scss/_footer.scss */
 .main-footer ul {
   list-style-type: none;
   margin-left: 0;
 }
-/* line 21, ../scss/_footer.scss */
+/* line 22, ../scss/_footer.scss */
 .main-footer .footer-links {
   margin-bottom: 2em;
 }
-/* line 26, ../scss/_footer.scss */
+/* line 27, ../scss/_footer.scss */
 .main-footer address {
   color: white;
   font-style: normal;
   font-weight: 400;
   line-height: 1.4em;
 }
-/* line 33, ../scss/_footer.scss */
+/* line 34, ../scss/_footer.scss */
 .main-footer address .footer-logo {
   font-size: 2em;
   line-height: 0;
@@ -5619,7 +5664,7 @@ button:hover, .button:hover {
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 48, ../scss/_footer.scss */
+  /* line 49, ../scss/_footer.scss */
   .main-footer .footer-links {
     margin-bottom: 0;
   }
