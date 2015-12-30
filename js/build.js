@@ -36,7 +36,7 @@ function buildGlobalNav() {
 	document.getElementById('globalNavsecond2-3Dropdown').innerHTML = 'BUILD LOYALTY';
 	document.getElementById('globalNavsecond2-3Dropdown').setAttribute('href', 'restaurant-rewards-benefits-build-brand-loyalty.html');
 	var benefitsSubNav3 = document.getElementById('benefitsSubNav3');
-	if (benefitsSubNav3 != null) document.getElementById('benefitsSubNav3').innerHTML = '<button class="button expanded active">2. BUILD LOYALTY</button>';
+	if (benefitsSubNav3 != null) document.getElementById('benefitsSubNav3').innerHTML = '<button class="button expanded active">3. BUILD LOYALTY</button>';
 	if (benefitsSubNav3 != null) document.getElementById('benefitsSubNav3').setAttribute('href', 'restaurant-rewards-benefits-build-brand-loyalty.html');
 
 
