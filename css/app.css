@@ -5419,14 +5419,14 @@ button:hover, .button:hover {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-/* line 6, ../scss/_main-content.scss */
+/* line 5, ../scss/_main-content.scss */
 .main-content .content-container {
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 2.75em;
+  padding-bottom: 2em;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   position: relative;
 }
-/* line 14, ../scss/_main-content.scss */
+/* line 13, ../scss/_main-content.scss */
 .main-content .hero {
   background: url(../img/background1.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -5436,11 +5436,11 @@ button:hover, .button:hover {
   z-index: 40;
   padding-top: 1em;
 }
-/* line 24, ../scss/_main-content.scss */
+/* line 23, ../scss/_main-content.scss */
 .main-content .hero h1, .main-content .hero h2, .main-content .hero p {
   color: white;
 }
-/* line 29, ../scss/_main-content.scss */
+/* line 28, ../scss/_main-content.scss */
 .main-content .hero .hero-logo {
   font-family: "Sansita One", cursive;
   color: #ff5722;
@@ -5448,180 +5448,182 @@ button:hover, .button:hover {
   letter-spacing: -0.025em;
   text-shadow: 2px 2px rgba(250, 250, 250, 0.75);
 }
-/* line 39, ../scss/_main-content.scss */
+/* line 38, ../scss/_main-content.scss */
 .main-content .pitch {
   z-index: 30;
 }
-/* line 43, ../scss/_main-content.scss */
+/* line 42, ../scss/_main-content.scss */
 .main-content .pitch img {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
-/* line 49, ../scss/_main-content.scss */
+/* line 48, ../scss/_main-content.scss */
 .main-content .benefits {
   background: #ff5722;
   z-index: 20;
 }
-/* line 54, ../scss/_main-content.scss */
+/* line 53, ../scss/_main-content.scss */
 .main-content .benefits h1, .main-content .benefits h2, .main-content .benefits h3, .main-content .benefits p, .main-content .benefits ul, .main-content .benefits li {
   color: white;
 }
-/* line 59, ../scss/_main-content.scss */
+/* line 58, ../scss/_main-content.scss */
 .main-content .benefits hr {
   border-color: white;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
-/* line 65, ../scss/_main-content.scss */
+/* line 64, ../scss/_main-content.scss */
 .main-content .benefits .button {
   background: white;
   color: #ff5722;
   font-size: .825em;
 }
-/* line 71, ../scss/_main-content.scss */
+/* line 70, ../scss/_main-content.scss */
 .main-content .benefits .button:hover {
   background: #e63e09;
   color: white;
 }
-/* line 79, ../scss/_main-content.scss */
+/* line 78, ../scss/_main-content.scss */
 .main-content .analytics {
   background: white;
   z-index: 10;
 }
-/* line 84, ../scss/_main-content.scss */
+/* line 83, ../scss/_main-content.scss */
 .main-content .analytics h1, .main-content .analytics h2, .main-content .analytics p, .main-content .analytics ul, .main-content .analytics li {
   color: #444444;
 }
-/* line 89, ../scss/_main-content.scss */
+/* line 88, ../scss/_main-content.scss */
 .main-content .analytics h2 {
   color: #ff5722;
   font-weight: 300;
 }
-/* line 95, ../scss/_main-content.scss */
+/* line 94, ../scss/_main-content.scss */
 .main-content .analytics p {
   color: #666666;
 }
-/* line 100, ../scss/_main-content.scss */
+/* line 99, ../scss/_main-content.scss */
 .main-content .analytics .analytics-block {
   padding-top: 1.25em;
   padding-bottom: .5em;
 }
-/* line 106, ../scss/_main-content.scss */
+/* line 105, ../scss/_main-content.scss */
 .main-content .analytics .analytics-title {
   padding-bottom: 0em;
 }
-/* line 111, ../scss/_main-content.scss */
+/* line 110, ../scss/_main-content.scss */
 .main-content .analytics .small-page-divider {
   padding-bottom: 1em;
 }
-/* line 124, ../scss/_main-content.scss */
+/* line 123, ../scss/_main-content.scss */
 .main-content .objectives .row {
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
-/* line 129, ../scss/_main-content.scss */
+/* line 128, ../scss/_main-content.scss */
 .main-content .objectives h2 {
   color: #ff5722;
 }
-/* line 133, ../scss/_main-content.scss */
+/* line 132, ../scss/_main-content.scss */
 .main-content .objectives .non-padded-row {
   padding-bottom: 1em;
 }
-/* line 138, ../scss/_main-content.scss */
+/* line 137, ../scss/_main-content.scss */
 .main-content .objectives img {
   margin-bottom: 1em;
   margin-top: .5em;
 }
-/* line 147, ../scss/_main-content.scss */
+/* line 146, ../scss/_main-content.scss */
 .main-content .sub-page-benefits h2 {
   color: #ff5722;
 }
-/* line 152, ../scss/_main-content.scss */
+/* line 151, ../scss/_main-content.scss */
 .main-content .sub-page-benefits .benefits-sub-nav {
   margin-bottom: 2em;
 }
-/* line 156, ../scss/_main-content.scss */
+/* line 155, ../scss/_main-content.scss */
 .main-content .sub-page-benefits .benefits-sub-nav .button {
   margin-top: 0;
 }
-/* line 161, ../scss/_main-content.scss */
+/* line 160, ../scss/_main-content.scss */
 .main-content .sub-page-benefits .benefits-sub-nav .active {
   background-color: #EB430E;
 }
-/* line 170, ../scss/_main-content.scss */
+/* line 169, ../scss/_main-content.scss */
 .main-content .pricing h2 {
   color: #ff5722;
 }
-/* line 175, ../scss/_main-content.scss */
+/* line 174, ../scss/_main-content.scss */
 .main-content .pricing .pricing-cost-container {
   margin: 1em 0 2em 0;
 }
-/* line 180, ../scss/_main-content.scss */
+/* line 179, ../scss/_main-content.scss */
 .main-content .pricing .pricing-name {
   margin-top: 1em;
 }
-/* line 185, ../scss/_main-content.scss */
+/* line 184, ../scss/_main-content.scss */
 .main-content .pricing ul {
   list-style-type: none;
   margin: 0;
 }
-/* line 192, ../scss/_main-content.scss */
+/* line 191, ../scss/_main-content.scss */
 .main-content .thank-you {
   position: relative;
   width: 100%;
   height: 75vh;
 }
-/* line 197, ../scss/_main-content.scss */
+/* line 196, ../scss/_main-content.scss */
 .main-content .thank-you h2 {
   color: #ff5722;
 }
-/* line 205, ../scss/_main-content.scss */
+/* line 204, ../scss/_main-content.scss */
 .main-content .insights h2 {
   color: #ff5722;
 }
-/* line 210, ../scss/_main-content.scss */
+/* line 209, ../scss/_main-content.scss */
 .main-content .insights ul {
   list-style-type: none;
-  margin: 2em 0 0 0;
+  margin: 0 0 2em 0;
 }
-/* line 216, ../scss/_main-content.scss */
+/* line 215, ../scss/_main-content.scss */
 .main-content .insights li {
   border-bottom: 1px solid #eee;
   padding: 2em 2em;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   transition: all 250ms;
 }
-/* line 223, ../scss/_main-content.scss */
+/* line 222, ../scss/_main-content.scss */
 .main-content .insights li:hover {
-  background-color: #eee;
+  background-color: #f3f3f3;
   transition: all 250ms;
 }
-/* line 230, ../scss/_main-content.scss */
+/* line 229, ../scss/_main-content.scss */
 .main-content .insights .article-date {
   color: #ff5722;
+  display: inline-block;
+  padding-bottom: .25em;
 }
-/* line 234, ../scss/_main-content.scss */
+/* line 235, ../scss/_main-content.scss */
 .main-content .insights .button {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 243, ../scss/_main-content.scss */
+/* line 244, ../scss/_main-content.scss */
 .main-content .insight h2 {
   color: #ff5722;
 }
-/* line 248, ../scss/_main-content.scss */
+/* line 249, ../scss/_main-content.scss */
 .main-content .insight img {
   margin-bottom: 1em;
 }
-/* line 253, ../scss/_main-content.scss */
+/* line 254, ../scss/_main-content.scss */
 .main-content .insight .related-articles-links {
   list-style-type: none;
 }
-/* line 258, ../scss/_main-content.scss */
+/* line 259, ../scss/_main-content.scss */
 .main-content .insight .article-tags {
   color: #666666;
-  margin-bottom: .5em;
+  margin-bottom: 1.75em;
   display: inline-block;
   font-weight: 700;
 }
-/* line 265, ../scss/_main-content.scss */
+/* line 266, ../scss/_main-content.scss */
 .main-content .insight .article-tags span {
   font-weight: 400;
   font-style: italic;
