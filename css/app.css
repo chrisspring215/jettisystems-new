@@ -5167,7 +5167,7 @@ ul, ol, dl {
     font-size: 1.65em;
     line-height: 1.1em;
     margin-bottom: 0.55em;
-    font-weight: 300;
+    font-weight: 400;
   }
   /* line 68, ../scss/_type.scss */
   .main-content h3 {
@@ -5226,55 +5226,50 @@ ul, ol, dl {
     font-size: 2.5em;
     line-height: 1.1em;
     margin-bottom: 0.35em;
-    font-weight: 700;
   }
-  /* line 139, ../scss/_type.scss */
+  /* line 138, ../scss/_type.scss */
   .main-content h2 {
     font-size: 2em;
     line-height: 1.1em;
     margin-bottom: 0.3em;
-    font-weight: 300;
   }
-  /* line 147, ../scss/_type.scss */
+  /* line 145, ../scss/_type.scss */
   .main-content h3 {
     font-size: 1.75em;
     line-height: 1.1em;
     margin-bottom: 0.3em;
-    font-weight: 700;
-    font-style: italic;
   }
-  /* line 156, ../scss/_type.scss */
+  /* line 152, ../scss/_type.scss */
   .main-content h4 {
     font-size: 1.25em;
     line-height: 1.1em;
     margin-bottom: 0.3em;
-    font-weight: 700;
   }
-  /* line 164, ../scss/_type.scss */
+  /* line 159, ../scss/_type.scss */
   .main-content p {
     font-size: 1.25em;
     line-height: 1.2em;
     margin-bottom: 1em;
   }
-  /* line 171, ../scss/_type.scss */
+  /* line 166, ../scss/_type.scss */
   .main-content ul, .main-content ol, .main-content dl, .main-content caption, .main-content th, .main-content td, .main-content input, .main-content textarea, .main-content select, .main-content option, .main-content legend, .main-content fieldset {
     font-size: 1.2em;
     line-height: 1.1em;
     margin-bottom: 0.35em;
   }
-  /* line 178, ../scss/_type.scss */
+  /* line 173, ../scss/_type.scss */
   .main-content ul, .main-content ol, .main-content dl {
     margin-top: 1em;
     margin-left: 1em;
     margin-bottom: 1em;
   }
-  /* line 185, ../scss/_type.scss */
+  /* line 180, ../scss/_type.scss */
   .main-content li {
     font-size: 1em;
     line-height: 1.1em;
     margin-bottom: 0.4em;
   }
-  /* line 192, ../scss/_type.scss */
+  /* line 187, ../scss/_type.scss */
   .main-content blockquote {
     font-size: 1.5em;
     line-height: 1.25em;
@@ -5282,65 +5277,60 @@ ul, ol, dl {
 }
 /* DESKTOP */
 @media only screen and (min-width: 64.063em) {
-  /* line 203, ../scss/_type.scss */
+  /* line 198, ../scss/_type.scss */
   body {
     font-size: 1em;
   }
 
-  /* line 210, ../scss/_type.scss */
+  /* line 205, ../scss/_type.scss */
   .main-content h1 {
     font-size: 3.25em;
     line-height: 1.1em;
     margin-bottom: 0.35em;
-    font-weight: 700;
   }
-  /* line 218, ../scss/_type.scss */
+  /* line 212, ../scss/_type.scss */
   .main-content h2 {
     font-size: 2.5em;
     line-height: 1.1em;
     margin-bottom: 0.3em;
-    font-weight: 300;
   }
-  /* line 226, ../scss/_type.scss */
+  /* line 219, ../scss/_type.scss */
   .main-content h3 {
     font-size: 1.75em;
     line-height: 1.1em;
     margin-bottom: 0.1em;
-    font-weight: 700;
-    font-style: italic;
   }
-  /* line 235, ../scss/_type.scss */
+  /* line 226, ../scss/_type.scss */
   .main-content h4 {
     font-size: 1.5em;
     line-height: 1.1em;
     margin-bottom: 0.1em;
-    font-weight: 700;
   }
-  /* line 243, ../scss/_type.scss */
+  /* line 233, ../scss/_type.scss */
   .main-content p {
     font-size: 1.5em;
     line-height: 1.2em;
     margin-bottom: 1em;
   }
-  /* line 250, ../scss/_type.scss */
+  /* line 240, ../scss/_type.scss */
   .main-content ul, .main-content ol, .main-content dl, .main-content caption, .main-content th, .main-content td, .main-content input, .main-content textarea, .main-content select, .main-content option, .main-content legend, .main-content fieldset {
     font-size: 1.25em;
     line-height: 1.1em;
     margin-bottom: 0.35em;
   }
-  /* line 257, ../scss/_type.scss */
+  /* line 247, ../scss/_type.scss */
   .main-content ul, .main-content ol, .main-content dl {
     margin-top: 1em;
     margin-left: 1em;
     margin-bottom: 1em;
   }
-  /* line 264, ../scss/_type.scss */
+  /* line 254, ../scss/_type.scss */
   .main-content li {
     font-size: 1em;
     line-height: 1.1em;
     margin-bottom: 0.4em;
   }
-  /* line 271, ../scss/_type.scss */
+  /* line 261, ../scss/_type.scss */
   .main-content blockquote {
     font-size: 1.5em;
     line-height: 1.25em;
@@ -5454,98 +5444,106 @@ button:hover, .button:hover {
 }
 /* line 42, ../scss/_main-content.scss */
 .main-content .pitch img {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  box-shadow: none;
+  background: none;
 }
-/* line 48, ../scss/_main-content.scss */
+@media only screen and (min-width: 40.063em) {
+  /* line 50, ../scss/_main-content.scss */
+  .main-content .pitch .top-padded {
+    margin-top: 12%;
+    margin-bottom: 12%;
+  }
+}
+/* line 58, ../scss/_main-content.scss */
 .main-content .benefits {
   background: #ff5722;
   z-index: 20;
 }
-/* line 53, ../scss/_main-content.scss */
+/* line 63, ../scss/_main-content.scss */
 .main-content .benefits h1, .main-content .benefits h2, .main-content .benefits h3, .main-content .benefits p, .main-content .benefits ul, .main-content .benefits li {
   color: white;
 }
-/* line 58, ../scss/_main-content.scss */
+/* line 68, ../scss/_main-content.scss */
 .main-content .benefits hr {
   border-color: white;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
-/* line 64, ../scss/_main-content.scss */
+/* line 74, ../scss/_main-content.scss */
 .main-content .benefits .button {
   background: white;
   color: #ff5722;
   font-size: .825em;
 }
-/* line 70, ../scss/_main-content.scss */
+/* line 80, ../scss/_main-content.scss */
 .main-content .benefits .button:hover {
   background: #e63e09;
   color: white;
 }
-/* line 78, ../scss/_main-content.scss */
+/* line 88, ../scss/_main-content.scss */
 .main-content .analytics {
   background: white;
   z-index: 10;
 }
-/* line 83, ../scss/_main-content.scss */
+/* line 93, ../scss/_main-content.scss */
 .main-content .analytics h1, .main-content .analytics h2, .main-content .analytics p, .main-content .analytics ul, .main-content .analytics li {
   color: #444444;
 }
-/* line 88, ../scss/_main-content.scss */
+/* line 98, ../scss/_main-content.scss */
 .main-content .analytics h2 {
   color: #ff5722;
   font-weight: 300;
 }
-/* line 94, ../scss/_main-content.scss */
+/* line 104, ../scss/_main-content.scss */
 .main-content .analytics p {
   color: #666666;
 }
-/* line 99, ../scss/_main-content.scss */
+/* line 109, ../scss/_main-content.scss */
 .main-content .analytics .analytics-block {
   padding-top: 1.25em;
   padding-bottom: .5em;
 }
-/* line 105, ../scss/_main-content.scss */
+/* line 115, ../scss/_main-content.scss */
 .main-content .analytics .analytics-title {
   padding-bottom: 0em;
 }
-/* line 110, ../scss/_main-content.scss */
+/* line 120, ../scss/_main-content.scss */
 .main-content .analytics .small-page-divider {
   padding-bottom: 1em;
 }
-/* line 124, ../scss/_main-content.scss */
+/* line 134, ../scss/_main-content.scss */
 .main-content .objectives h2 {
   color: #ff5722;
 }
-/* line 130, ../scss/_main-content.scss */
+/* line 140, ../scss/_main-content.scss */
 .main-content .objectives .deliver {
   padding: 1.75em 1.5em 1em 1.5em;
   margin-bottom: 0em;
 }
-/* line 136, ../scss/_main-content.scss */
+/* line 146, ../scss/_main-content.scss */
 .main-content .objectives .shade {
   background: #eee;
 }
-/* line 146, ../scss/_main-content.scss */
+/* line 156, ../scss/_main-content.scss */
 .main-content .sub-page-benefits h2 {
   color: #ff5722;
 }
-/* line 151, ../scss/_main-content.scss */
+/* line 161, ../scss/_main-content.scss */
 .main-content .sub-page-benefits .benefits-sub-nav {
   margin-bottom: 2em;
 }
-/* line 155, ../scss/_main-content.scss */
+/* line 165, ../scss/_main-content.scss */
 .main-content .sub-page-benefits .benefits-sub-nav .button {
   margin-top: 0;
 }
-/* line 160, ../scss/_main-content.scss */
-.main-content .sub-page-benefits .benefits-sub-nav .active {
-  background-color: #EB430E;
+/* line 171, ../scss/_main-content.scss */
+.main-content .sub-page-benefits .benefits-sub-nav .active > .button {
+  background-color: #f04813;
 }
-/* line 169, ../scss/_main-content.scss */
+/* line 180, ../scss/_main-content.scss */
 .main-content .pricing h2 {
   color: #ff5722;
 }
-/* line 174, ../scss/_main-content.scss */
+/* line 185, ../scss/_main-content.scss */
 .main-content .pricing .price {
   color: #ff5722;
   font-weight: 700;
@@ -5555,7 +5553,7 @@ button:hover, .button:hover {
   letter-spacing: -0.075em;
   word-wrap: normal;
 }
-/* line 184, ../scss/_main-content.scss */
+/* line 195, ../scss/_main-content.scss */
 .main-content .pricing .price .dollar-cent {
   font-size: .5em;
   display: inline-block;
@@ -5563,13 +5561,13 @@ button:hover, .button:hover {
   position: relative;
   top: -0.75em;
 }
-/* line 194, ../scss/_main-content.scss */
+/* line 205, ../scss/_main-content.scss */
 .main-content .pricing .pricing-cost-container {
   margin: 0 0 0 0;
   padding-top: 1em;
   padding-bottom: 1em;
 }
-/* line 201, ../scss/_main-content.scss */
+/* line 212, ../scss/_main-content.scss */
 .main-content .pricing .per-month {
   display: block;
   font-size: 1.25em;
@@ -5579,26 +5577,26 @@ button:hover, .button:hover {
   font-family: "Roboto Condensed", sans-serif;
   color: #ff5722;
 }
-/* line 211, ../scss/_main-content.scss */
+/* line 222, ../scss/_main-content.scss */
 .main-content .pricing .pricing-name {
   margin-bottom: -0.75em;
 }
-/* line 216, ../scss/_main-content.scss */
+/* line 227, ../scss/_main-content.scss */
 .main-content .pricing ul {
   list-style-type: none;
   margin: 0;
 }
-/* line 222, ../scss/_main-content.scss */
+/* line 233, ../scss/_main-content.scss */
 .main-content .pricing hr {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
-/* line 227, ../scss/_main-content.scss */
+/* line 238, ../scss/_main-content.scss */
 .main-content .pricing .pricing-call-to-action {
   margin-top: 2em;
   margin-bottom: 4em;
   font-weight: 700;
 }
-/* line 235, ../scss/_main-content.scss */
+/* line 246, ../scss/_main-content.scss */
 .main-content .tel-no-field {
   border: none;
   display: inline;
@@ -5607,68 +5605,68 @@ button:hover, .button:hover {
   background: none;
   color: #ff5722;
 }
-/* line 246, ../scss/_main-content.scss */
+/* line 257, ../scss/_main-content.scss */
 .main-content .thank-you {
   position: relative;
   width: 100%;
   height: 75vh;
 }
-/* line 251, ../scss/_main-content.scss */
+/* line 262, ../scss/_main-content.scss */
 .main-content .thank-you h2 {
   color: #ff5722;
 }
-/* line 259, ../scss/_main-content.scss */
+/* line 270, ../scss/_main-content.scss */
 .main-content .insights h2 {
   color: #ff5722;
 }
-/* line 264, ../scss/_main-content.scss */
+/* line 275, ../scss/_main-content.scss */
 .main-content .insights ul {
   list-style-type: none;
   margin: 0 0 2em 0;
 }
-/* line 270, ../scss/_main-content.scss */
+/* line 281, ../scss/_main-content.scss */
 .main-content .insights li {
   border-bottom: 1px solid #eee;
   padding: 2em 2em;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   transition: all 250ms;
 }
-/* line 277, ../scss/_main-content.scss */
+/* line 288, ../scss/_main-content.scss */
 .main-content .insights li:hover {
   background-color: #f3f3f3;
   transition: all 250ms;
 }
-/* line 284, ../scss/_main-content.scss */
+/* line 295, ../scss/_main-content.scss */
 .main-content .insights .article-date {
   color: #ff5722;
   display: inline-block;
   padding-bottom: .25em;
 }
-/* line 290, ../scss/_main-content.scss */
+/* line 301, ../scss/_main-content.scss */
 .main-content .insights .button {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 299, ../scss/_main-content.scss */
+/* line 310, ../scss/_main-content.scss */
 .main-content .insight h2 {
   color: #ff5722;
 }
-/* line 304, ../scss/_main-content.scss */
+/* line 315, ../scss/_main-content.scss */
 .main-content .insight img {
   margin-bottom: 1em;
 }
-/* line 309, ../scss/_main-content.scss */
+/* line 320, ../scss/_main-content.scss */
 .main-content .insight .related-articles-links {
   list-style-type: none;
 }
-/* line 314, ../scss/_main-content.scss */
+/* line 325, ../scss/_main-content.scss */
 .main-content .insight .article-tags {
   color: #666666;
   margin-bottom: 1.75em;
   display: inline-block;
   font-weight: 700;
 }
-/* line 321, ../scss/_main-content.scss */
+/* line 332, ../scss/_main-content.scss */
 .main-content .insight .article-tags span {
   font-weight: 400;
   font-style: italic;

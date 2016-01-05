@@ -40,7 +40,17 @@
 
 		img
 		{
-			box-shadow: $shadow;
+			box-shadow: none;
+			background: none;
+		}
+
+		@media only screen and (min-width: 40.063em) {
+
+			.top-padded
+			{
+				margin-top: 12%;
+				margin-bottom: 12%;
+			}
 		}
 	}
 
@@ -154,11 +164,12 @@
 			.button
 			{
 				margin-top: 0;
+
 			}
 
-			.active
+			.active > .button
 			{
-				background-color: #EB430E;
+				background-color: $color-main - 15;
 			}
 		}
 	}
