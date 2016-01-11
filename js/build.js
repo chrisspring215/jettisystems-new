@@ -50,7 +50,7 @@ function buildGlobalNav() {
 
 	// Sets Fith Link Button
 	document.getElementById('globalNavfithButton').innerHTML = 'LOG IN';
-	document.getElementById('globalNavfithButton').setAttribute('href', 'cats.html');
+	document.getElementById('globalNavfithButton').setAttribute('href', 'https://www.jettiup.com/admin#!/');
 
 	// Sets Sixth Link Button
 	document.getElementById('globalNavsixthButton').innerHTML = 'INSIGHTS';
