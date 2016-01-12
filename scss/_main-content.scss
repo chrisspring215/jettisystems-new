@@ -3,15 +3,23 @@
 
 	.content-container
 	{
-		padding-top: 2.75em;
+		padding-top: 2em;
 		padding-bottom: 2em;
-		box-shadow: $shadow;
 		position: relative;
+	}
+
+	@media only screen and (min-width: 40.063em) {
+
+		.content-container
+		{
+			padding-top: 5.75em;
+			padding-bottom: 5.75em;
+		}
 	}
 
 	.hero
 	{
-		background: url(../img/background2.jpg) no-repeat center center fixed; 
+		background: url(../img/jetti-systems-background.png) no-repeat center center fixed; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;

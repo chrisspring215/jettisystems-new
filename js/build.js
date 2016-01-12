@@ -1,5 +1,6 @@
 buildGlobalNav()
 buildAnalytics()
+buildFooter()
 
 
 
@@ -50,7 +51,7 @@ function buildGlobalNav() {
 
 	// Sets Fith Link Button
 	document.getElementById('globalNavfithButton').innerHTML = 'LOG IN';
-	document.getElementById('globalNavfithButton').setAttribute('href', 'https://www.jettiup.com/admin#!/');
+	document.getElementById('globalNavfithButton').setAttribute('href', 'https://www.jettiup.com/admin');
 
 	// Sets Sixth Link Button
 	document.getElementById('globalNavsixthButton').innerHTML = 'INSIGHTS';
@@ -64,3 +65,51 @@ function buildAnalytics() {
 	document.getElementById('analyticsContainer').innerHTML = '!function(e,a,t,n,c,o,s){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,o=a.createElement(t),s=a.getElementsByTagName(t)[0],o.async=1,o.src=n,s.parentNode.insertBefore(o,s)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-64533681-1","auto"),ga("send","pageview");';
 	
 }
+
+// Builds footer links
+function buildFooter() {
+	// Sets first footer link
+	document.getElementById('footerNav1').innerHTML = document.getElementById('globalNavfirstButton').innerHTML;
+	document.getElementById('footerNav1').setAttribute('href', document.getElementById('globalNavfirstButton').getAttribute('href'));
+
+	// Sets second footer link
+	document.getElementById('footerNav2').innerHTML = document.getElementById('globalNavsecond2-1Dropdown').innerHTML;
+	document.getElementById('footerNav2').setAttribute('href', document.getElementById('globalNavsecond2-1Dropdown').getAttribute('href'));
+
+	// Sets thrid footer link
+	document.getElementById('footerNav3').innerHTML = document.getElementById('globalNavsecond2-2Dropdown').innerHTML;
+	document.getElementById('footerNav3').setAttribute('href', document.getElementById('globalNavsecond2-2Dropdown').getAttribute('href'));
+
+	// Sets forth footer link
+	document.getElementById('footerNav4').innerHTML = document.getElementById('globalNavsecond2-3Dropdown').innerHTML;
+	document.getElementById('footerNav4').setAttribute('href', document.getElementById('globalNavsecond2-3Dropdown').getAttribute('href'));
+
+	// Sets fith footer link
+	document.getElementById('footerNav5').innerHTML = document.getElementById('globalNavthirdButton').innerHTML;
+	document.getElementById('footerNav5').setAttribute('href', document.getElementById('globalNavthirdButton').getAttribute('href'));
+
+	// Sets sixth footer link
+	document.getElementById('footerNav6').innerHTML = document.getElementById('globalNavfourthButton').innerHTML;
+	document.getElementById('footerNav6').setAttribute('href', document.getElementById('globalNavfourthButton').getAttribute('href'));
+
+	// Sets seventh footer link
+	document.getElementById('footerNav7').innerHTML = document.getElementById('globalNavsixthButton').innerHTML;
+	document.getElementById('footerNav7').setAttribute('href', document.getElementById('globalNavsixthButton').getAttribute('href'));
+
+	// Sets eighth footer link
+	document.getElementById('footerNav8').innerHTML = 'TERMS OF SERVICE';
+	document.getElementById('footerNav8').setAttribute('href', 'terms-of-service.html');
+
+	// Sets ninth footer link
+	document.getElementById('footerNav9').innerHTML = 'FACEBOOK';
+	document.getElementById('footerNav9').setAttribute('href', 'https://www.facebook.com/jettirewards/');
+
+	// Sets tenth footer link
+	document.getElementById('footerNav10').innerHTML = 'TWITTER';
+	document.getElementById('footerNav10').setAttribute('href', 'https://twitter.com/jettisystems');
+
+	// Sets tenth footer link
+	document.getElementById('footerNav11').innerHTML = 'GOOGLE +';
+	document.getElementById('footerNav11').setAttribute('href', 'https://plus.google.com/+Jettisystems1/about');
+}
+
