@@ -1,8 +1,13 @@
+
+buildWebfonts()
 buildGlobalNav()
 buildAnalytics()
 buildFooter()
 
-
+// Builds out the Web fonts
+function buildWebfonts() {
+	document.getElementById('typeface').setAttribute('href', 'https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic|Sansita+One')
+}
 
 // Builds out the global Navigation
 function buildGlobalNav() {
@@ -49,13 +54,21 @@ function buildGlobalNav() {
 	document.getElementById('globalNavfourthButton').innerHTML = 'CONTACT US';
 	document.getElementById('globalNavfourthButton').setAttribute('href', 'restaurant-rewards-contact-us.html');
 
-	// Sets Fith Link Button
-	document.getElementById('globalNavfithButton').innerHTML = 'LOG IN';
-	document.getElementById('globalNavfithButton').setAttribute('href', 'https://www.jettiup.com/admin');
-
 	// Sets Sixth Link Button
 	document.getElementById('globalNavsixthButton').innerHTML = 'INSIGHTS';
 	document.getElementById('globalNavsixthButton').setAttribute('href', 'restaurant-rewards-insights-index.html');
+
+	// Sets Seventh Link Button Text
+	document.getElementById('globalNavseventhButton').innerHTML = 'MEMBERS';
+	//document.getElementById('globalNavsecondButton').setAttribute('href', '');
+
+	// Sets Seventh Link Button 2.1 Text
+	document.getElementById('globalNavseventh2-1Dropdown').innerHTML = 'LOG IN TO ADMIN';
+	document.getElementById('globalNavseventh2-1Dropdown').setAttribute('href', 'https://www.jettiup.com/admin');
+
+	// Sets Seventh Link Button 2.2 Text
+	document.getElementById('globalNavseventh2-2Dropdown').innerHTML = 'BILLING';
+	document.getElementById('globalNavseventh2-2Dropdown').setAttribute('href', 'https://jetti.rerunapp.com/myaccount');
 }
 
 
@@ -101,15 +114,19 @@ function buildFooter() {
 	document.getElementById('footerNav8').setAttribute('href', 'terms-of-service.html');
 
 	// Sets ninth footer link
-	document.getElementById('footerNav9').innerHTML = 'FACEBOOK';
-	document.getElementById('footerNav9').setAttribute('href', 'https://www.facebook.com/jettirewards/');
+	document.getElementById('footerNav9').innerHTML = 'BILLING';
+	document.getElementById('footerNav9').setAttribute('href', 'https://jetti.rerunapp.com/myaccount');
 
 	// Sets tenth footer link
-	document.getElementById('footerNav10').innerHTML = 'TWITTER';
-	document.getElementById('footerNav10').setAttribute('href', 'https://twitter.com/jettisystems');
+	document.getElementById('footerNav10').innerHTML = 'FACEBOOK';
+	document.getElementById('footerNav10').setAttribute('href', 'https://www.facebook.com/jettirewards/');
 
-	// Sets tenth footer link
-	document.getElementById('footerNav11').innerHTML = 'GOOGLE +';
-	document.getElementById('footerNav11').setAttribute('href', 'https://plus.google.com/+Jettisystems1/about');
+	// Sets eleventh footer link
+	document.getElementById('footerNav11').innerHTML = 'TWITTER';
+	document.getElementById('footerNav11').setAttribute('href', 'https://twitter.com/jettisystems');
+
+	// Sets 12th footer link
+	document.getElementById('footerNav12').innerHTML = 'GOOGLE +';
+	document.getElementById('footerNav12').setAttribute('href', 'https://plus.google.com/+Jettisystems1/about');
 }
 
