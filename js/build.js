@@ -1,12 +1,10 @@
-
-buildWebfonts()
 buildGlobalNav()
 buildAnalytics()
 buildFooter()
+buildFonts()
 
-// Builds out the Web fonts
-function buildWebfonts() {
-	document.getElementById('typeface').setAttribute('href', 'https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic|Sansita+One')
+function buildFonts() {
+	document.getElementById('typeface').setAttribute('href', 'https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300|Sansita+One');
 }
 
 // Builds out the global Navigation
