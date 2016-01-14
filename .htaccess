@@ -29,6 +29,9 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^jettisystems.com [NC]
 RewriteRule ^(.*)$ http://www.jettisystems.com/$1 [L,R=301]
 
+
+Redirect 301 /contact.html http://www.jettisystems.com/restaurant-rewards-contact-us.html
+
 # SPAMBOTS
 SetEnvIfNoCase Referer 4webmasters.org spambot=yes
 

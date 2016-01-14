@@ -66,7 +66,7 @@ function buildGlobalNav() {
 
 	// Sets Seventh Link Button 2.2 Text
 	document.getElementById('globalNavseventh2-2Dropdown').innerHTML = 'BILLING';
-	document.getElementById('globalNavseventh2-2Dropdown').setAttribute('href', 'https://jetti.rerunapp.com/myaccount');
+	document.getElementById('globalNavseventh2-2Dropdown').setAttribute('href', 'http://jetti.rerunapp.com/myaccount');
 }
 
 
