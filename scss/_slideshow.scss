@@ -1,0 +1,33 @@
+.slideshow-container
+{
+	h2
+	{
+		font-weight: 700;
+	}
+
+	.content-container
+	{
+		height: 100%;
+		line-height: 100%;
+
+		span
+		{
+			display: block;
+			line-height: 1em;
+			font-size: 5vh;
+			font-weight: 700;
+			font-family: $roboto;
+			color: #333333;
+		}
+	}
+}
+
+.slideshow-nav
+{
+
+	.button
+	{
+		box-shadow: $shadow;
+		margin: 1em 0 0 0;
+	}
+}

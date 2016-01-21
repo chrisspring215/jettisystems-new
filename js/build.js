@@ -128,3 +128,19 @@ function buildFooter() {
 	document.getElementById('footerNav12').setAttribute('href', 'https://plus.google.com/+Jettisystems1/about');
 }
 
+function openWindow() {
+	window.open('restaurant-rewards-program-tour.html')
+}
+
+function closeWindow() {
+	window.close()
+}
+
+function buildSlideshow () {
+	var slide = document.getElementById('slide');
+	//var slideSource = slide.getAttribute('src');
+
+	var slides = ['slide1.png', 'slide2.png'];
+
+	slide.setAttribute('src', 'img/slides/' + slides[0]);
+}

@@ -5362,6 +5362,31 @@ button:hover, .button:hover {
   background: none;
 }
 
+/* line 4, ../scss/_slideshow.scss */
+.slideshow-container h2 {
+  font-weight: 700;
+}
+/* line 9, ../scss/_slideshow.scss */
+.slideshow-container .content-container {
+  height: 100%;
+  line-height: 100%;
+}
+/* line 14, ../scss/_slideshow.scss */
+.slideshow-container .content-container span {
+  display: block;
+  line-height: 1em;
+  font-size: 5vh;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #333333;
+}
+
+/* line 29, ../scss/_slideshow.scss */
+.slideshow-nav .button {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  margin: 1em 0 0 0;
+}
+
 /* line 2, ../scss/_global-nav.scss */
 .global-nav {
   background: #ff5722;
