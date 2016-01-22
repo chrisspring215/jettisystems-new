@@ -1,24 +1,30 @@
-.slideshow-container
-{
-	h2
-	{
-		font-weight: 700;
+@-webkit-keyframes fadeIn {
+	  0%   { opacity: 0; }
+	  100% { opacity: 1; }
+	}
+	@-moz-keyframes fadeIn {
+	  0%   { opacity: 0; }
+	  100% { opacity: 1; }
+	}
+	@-o-keyframes fadeIn {
+	  0%   { opacity: 0; }
+	  100% { opacity: 1; }
+	}
+	@keyframes fadeIn {
+	  0%   { opacity: 0; }
+	  100% { opacity: 1; }
 	}
 
-	.content-container
-	{
-		height: 100%;
-		line-height: 100%;
+.slideshow-container
+{
 
-		span
-		{
-			display: block;
-			line-height: 1em;
-			font-size: 5vh;
-			font-weight: 700;
-			font-family: $roboto;
-			color: #333333;
-		}
+	img
+	{	
+		margin-top: 2em;
+		 -moz-animation: fadeIn 1s ease;
+		 animation: fadeIn 1s ease;
+		 border: 1px solid #ccc;
+		 box-shadow: $shadow;
 	}
 }
 

@@ -5362,26 +5362,64 @@ button:hover, .button:hover {
   background: none;
 }
 
-/* line 4, ../scss/_slideshow.scss */
-.slideshow-container h2 {
-  font-weight: 700;
-}
-/* line 9, ../scss/_slideshow.scss */
-.slideshow-container .content-container {
-  height: 100%;
-  line-height: 100%;
-}
-/* line 14, ../scss/_slideshow.scss */
-.slideshow-container .content-container span {
-  display: block;
-  line-height: 1em;
-  font-size: 5vh;
-  font-weight: 700;
-  font-family: "Roboto Condensed", sans-serif;
-  color: #333333;
+@-webkit-keyframes fadeIn {
+  /* line 2, ../scss/_slideshow.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 3, ../scss/_slideshow.scss */
+  100% {
+    opacity: 1;
+  }
 }
 
-/* line 29, ../scss/_slideshow.scss */
+@-moz-keyframes fadeIn {
+  /* line 6, ../scss/_slideshow.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 7, ../scss/_slideshow.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  /* line 10, ../scss/_slideshow.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 11, ../scss/_slideshow.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  /* line 14, ../scss/_slideshow.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 15, ../scss/_slideshow.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 22, ../scss/_slideshow.scss */
+.slideshow-container img {
+  margin-top: 2em;
+  -moz-animation: fadeIn 1s ease;
+  animation: fadeIn 1s ease;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+/* line 35, ../scss/_slideshow.scss */
 .slideshow-nav .button {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   margin: 1em 0 0 0;

@@ -40,22 +40,30 @@
     <script id="analyticsContainer"></script>
     
   </head>
-  <body onload="buildSlideshow()" onresize="buildSlideshow()">
+  <body onload="buildSlideshow()">
 
     <div class="row">
       <div class="small-10 columns small-centered">
         <div class="slideshow-container" id="slideshowContainer">
-          <img id="slide" >
+          <img id="slide" src="img/slides/slide1.png" alt="This is slide 1" title="THis is the title" class="imgIn">
         </div>
       </div>
     </div>
 
     <div class="row">
-      <div class="small-10 columns small-centered text-right">
+      <div class="small-6 columns small-centered">
         <div class="slideshow-nav" id="slideshowNav">
-          <a href="" class="button">BACK</a>
-          <a href="" class="button">NEXT</a>
-          <a href="" class="button" onclick="closeWindow()">CLOSE</a>
+          <div class="row">
+            <div class="small-4 columns">
+              <button class="button expanded" onclick="back()" id="backbutton">BACK</button>
+            </div>
+            <div class="small-4 columns">
+              <button class="button expanded" onclick="next()">NEXT</button>
+            </div>
+            <div class="small-4 columns">
+              <button class="button expanded" onclick="closeWindow()">CLOSE</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

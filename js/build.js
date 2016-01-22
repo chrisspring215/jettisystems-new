@@ -137,10 +137,46 @@ function closeWindow() {
 }
 
 function buildSlideshow () {
-	var slide = document.getElementById('slide');
-	//var slideSource = slide.getAttribute('src');
+	var slideSource = document.getElementById('slide').getAttribute('src');
+	var splitSource = slideSource.split('');
+	var slideNumber = Number(splitSource[16]);
 
-	var slides = ['slide1.png', 'slide2.png'];
-
-	slide.setAttribute('src', 'img/slides/' + slides[0]);
+	if (slideNumber === 1) {document.getElementById('backbutton').setAttribute('class', 'button expanded disabled')};
 }
+
+function next() {
+
+	var slideSource = document.getElementById('slide').getAttribute('src');
+	var splitSource = slideSource.split('');
+	var slideNumber = Number(splitSource[16]);
+	var newSlideNumber = slideNumber + 1;
+	splitSource[16] = newSlideNumber;
+	var newSource = splitSource.join('');	
+	document.getElementById('slide').setAttribute('src', newSource)
+
+	if (newSlideNumber != 1) {document.getElementById('backbutton').setAttribute('class', 'button expanded')};
+
+}
+
+function back() {
+
+	var slideSource = document.getElementById('slide').getAttribute('src');
+	var splitSource = slideSource.split('');
+	var slideNumber = Number(splitSource[16]);
+	var newSlideNumber = slideNumber - 1;
+	splitSource[16] = newSlideNumber;
+	var newSource = splitSource.join('');	
+	document.getElementById('slide').setAttribute('src', newSource)
+
+	if (newSlideNumber === 1) {document.getElementById('backbutton').setAttribute('class', 'button expanded disabled')};
+}
+
+
+
+
+
+
+
+
+
+
