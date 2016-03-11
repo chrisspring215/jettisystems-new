@@ -5487,7 +5487,7 @@ button:hover, .button:hover {
 }
 /* line 21, ../scss/_main-content.scss */
 .main-content .hero {
-  background: url(../img/jetti-systems-background.png) no-repeat center center fixed;
+  background: url(../img/jetti-systems-background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

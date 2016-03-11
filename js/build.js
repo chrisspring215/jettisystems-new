@@ -15,7 +15,7 @@ function buildGlobalNav() {
 	document.getElementById('globalNavHomeButton').setAttribute('href', 'index.html');
 
 	// Sets First Link Button
-	document.getElementById('globalNavfirstButton').innerHTML = 'TOUR';
+	document.getElementById('globalNavfirstButton').innerHTML = '10 REASONS WHY';
 	document.getElementById('globalNavfirstButton').setAttribute('href', 'restaurant-rewards-program.html');
 
 	// Sets Second Link Button Text
