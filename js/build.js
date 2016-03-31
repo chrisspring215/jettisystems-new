@@ -53,11 +53,11 @@ function buildGlobalNav() {
 	document.getElementById('globalNavfourthButton').setAttribute('href', 'restaurant-rewards-contact-us.html');
 
 	// Sets Sixth Link Button
-	document.getElementById('globalNavsixthButton').innerHTML = 'INSIGHTS';
+	document.getElementById('globalNavsixthButton').innerHTML = 'PRESS';
 	document.getElementById('globalNavsixthButton').setAttribute('href', 'restaurant-rewards-insights-index.html');
 
 	// Sets Seventh Link Button Text
-	document.getElementById('globalNavseventhButton').innerHTML = 'MEMBERS';
+	document.getElementById('globalNavseventhButton').innerHTML = 'CUSTOMERS';
 	//document.getElementById('globalNavsecondButton').setAttribute('href', '');
 
 	// Sets Seventh Link Button 2.1 Text
@@ -66,7 +66,11 @@ function buildGlobalNav() {
 
 	// Sets Seventh Link Button 2.2 Text
 	document.getElementById('globalNavseventh2-2Dropdown').innerHTML = 'BILLING';
-	document.getElementById('globalNavseventh2-2Dropdown').setAttribute('href', 'http://jetti.rerunapp.com/myaccount');
+	document.getElementById('globalNavseventh2-2Dropdown').setAttribute('href', 'https://jetti.rerunapp.com/myaccount');
+
+	// Sets Seventh Link Button 2.2 Text
+	document.getElementById('globalNavseventh2-3Dropdown').innerHTML = 'GET JETTI REWARDS';
+	document.getElementById('globalNavseventh2-3Dropdown').setAttribute('href', 'https://jetti.rerunapp.com/checkout');
 }
 
 
