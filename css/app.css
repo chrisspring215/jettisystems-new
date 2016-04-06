@@ -5745,6 +5745,25 @@ button:hover, .button:hover {
   font-weight: 400;
   font-style: italic;
 }
+/* line 354, ../scss/_main-content.scss */
+.main-content .features {
+  background: #ff5722;
+}
+/* line 358, ../scss/_main-content.scss */
+.main-content .features h3 {
+  color: white;
+}
+/* line 363, ../scss/_main-content.scss */
+.main-content .features a {
+  background-color: none;
+  transition: background-color 0.3s ease;
+  display: block;
+}
+/* line 370, ../scss/_main-content.scss */
+.main-content .features a:hover {
+  background-color: #eb430e;
+  transition: background-color 0.3s ease;
+}
 
 /* line 2, ../scss/_footer.scss */
 .main-footer {

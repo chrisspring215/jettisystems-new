@@ -350,5 +350,29 @@
 		}
 	}
 
+	.features
+	{
+		background: $color-main;
+
+		h3
+		{
+			color: $white;
+		}
+
+		a
+		{
+			background-color: none;
+			transition: background-color 0.3s ease;
+			display: block;
+		}
+
+		a:hover
+		{
+			background-color: $color-main - 20;
+			transition: background-color 0.3s ease;
+
+		}
+	}
+
 }
 

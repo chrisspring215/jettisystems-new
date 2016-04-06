@@ -53,7 +53,7 @@ function buildGlobalNav() {
 	document.getElementById('globalNavfourthButton').setAttribute('href', 'restaurant-rewards-contact-us.html');
 
 	// Sets Sixth Link Button
-	document.getElementById('globalNavsixthButton').innerHTML = 'PRESS';
+	document.getElementById('globalNavsixthButton').innerHTML = 'INSIGHTS';
 	document.getElementById('globalNavsixthButton').setAttribute('href', 'restaurant-rewards-insights-index.html');
 
 	// Sets Seventh Link Button Text
