@@ -1,6 +1,6 @@
 .global-nav
 {
-	background: $color-main;
+	background-color: $color-main;
 	box-shadow: $shadow;
 	position: relative;
 	z-index: 1000;
@@ -8,7 +8,7 @@
 
 .top-bar
 {
-	background: none;
+	background-color: $color-main;;
 
 	a
 	{
@@ -30,11 +30,23 @@
 		background-color: $color-main - 20;
 		transition: $trans;
 
-
 		&:hover
 		{
 			background-color: $color-main - 10;
 			transition: $trans;
+		}
+	}
+
+	.title-area
+	{
+		background-color: $color-main;
+
+		text-transform: normal;
+
+		h1 a
+		{
+			font-family: $sansita;
+			text-transform: none;
 		}
 	}
 }
@@ -45,7 +57,43 @@
 	box-shadow: $shadow;
 }
 
-.title-bar-title
+.title-area
 {
-	font-family: $roboto;
+	background-color: $color-main;
 }
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+    background: $color-main;
+    color: #FFFFFF;
+    line-height: 2.8125rem;
+    padding: 0 0.9375rem;
+    text-transform: uppercase;
+
+
+    
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: $color-main;
+    line-height: 2.8125rem;
+    padding: 0 0.9375rem;
+    text-transform: uppercase;
+    &:hover
+    {
+    	background: $color-main - 30;
+    }
+}
+
+.top-bar.expanded .toggle-topbar a {
+    color: $white;
+}
+
+.top-bar.expanded .title-area {
+    background: $color-main;
+}
+
+.top-bar.expanded .toggle-topbar a span::after
+{
+    box-shadow: 0 0 0 1px $white, 0 7px 0 1px $white, 0 14px 0 1px $white;
+}
+
