@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Meta -->
     <title>Restaurant Customer Loyalty Program: Jetti Rewards</title>
     <meta name="description" content="The Premier Rewards Program for Full-Service Restaurants. Achieve exceptional results for your restaurant organization with the most effective rewards program ever built." />
     <link rel="publisher" href="https://plus.google.com/+Jettisystems1" />
@@ -45,47 +47,55 @@
     <meta name="twitter:image" content="http://www.jettisystems.com/img/jetti-rewards-fb.png">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="css/app.css" />
 
     <!-- WEB FONTS -->
-    <link id="typeface" href="" rel='stylesheet' type='text/css'/>
+    <link id="typeface" href="" rel='stylesheet' type='text/css'>
+
+    
+    
   </head>
   <body>
 
-    <nav class="top-bar global-nav" data-topbar role="navigation">
-      <ul class="title-area">
-        <li class="name">
-          <h1 class="title-bar-title"><a href="#">Jetti</a></h1>
-        </li>
-         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-        <li class="toggle-topbar menu-icon"><a href="index.html"><span>Menu</span></a></li>
-      </ul>
-
-      <section class="top-bar-section">
-        <!-- Right Nav Section -->
-        <ul class="right dogs">
-          <li><a href="restaurant-rewards-program.html">10 Reasons Why</a></li>
-          <li class="has-dropdown">
-            <a href="#">Benefits</a>
-            <ul class="dropdown">
-              <li><a href="restaurant-rewards-benefits-customer-emails.html">Customer Emails</a></li>
-              <li><a href="restaurant-rewards-benefits-customer-upselling.html">Drive Upselling</a></li>
-              <li><a href="restaurant-rewards-benefits-build-brand-loyalty.html">Build Loyalty</a></li>
+    <!-- Build.js > buildNav() -->
+    <nav id="globalNavContainer" class="global-nav">
+      <div class="title-bar" data-responsive-toggle="global-navigation" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle></button>
+        <div class="title-bar-title">MENU</div>
+      </div>
+      <div class="top-bar" id="global-navigation">
+        <div class="row">
+          <div class="top-bar-left">
+            <ul class="dropdown menu vertical medium-horizontal" data-dropdown-menu>
+              <li><a href="#" id="globalNavHomeButton" class="global-nav-home-button">Jetti Rewards</a></li>
             </ul>
-          </li>
-          <li><a href="restaurant-rewards-pricing.html">Pricing</a></li>
-          <li><a href="restaurant-rewards-contact-us.html">Contact Us</a></li>
-          <li><a href="restaurant-rewards-insights-index.html">Insights</a></li>
-          <li class="has-dropdown">
-            <a href="#">Customers</a>
-            <ul class="dropdown">
-              <li><a href="https://www.jettiup.com/admin#!">Login to Admin</a></li>
-              <li><a href="http://jetti.rerunapp.com/myaccount">Billing</a></li>
-              <li><a href="https://jetti.rerunapp.com/checkout">Get Jetti Rewards</a></li>
+          </div>
+          <div class="top-bar-right">
+            <ul class="dropdown menu vertical medium-horizontal" data-dropdown-menu>
+              <li><a id="globalNavfirstButton"></a></li>
+              <li class="has-submenu">
+                <a id="globalNavsecondButton"></a>
+                <ul class="submenu menu" data-submenu>
+                  <li><a id="globalNavsecond2-1Dropdown"></a></li>
+                  <li><a id="globalNavsecond2-2Dropdown"></a></li>
+                  <li><a id="globalNavsecond2-3Dropdown"></a></li>
+                </ul>
+              </li>
+              <li><a id="globalNavthirdButton"></a></li>
+              <li><a id="globalNavfourthButton" rel="nofollow"></a></li>
+              <li><a id="globalNavsixthButton"></a></li>
+              <li class="has-submenu">
+                <a id="globalNavseventhButton"></a>
+                <ul class="submenu menu" data-submenu>
+                  <li><a id="globalNavseventh2-1Dropdown" rel="nofollow"></a></li>
+                  <li><a id="globalNavseventh2-2Dropdown" rel="nofollow"></a></li>
+                  <li><a id="globalNavseventh2-3Dropdown" rel="nofollow"></a></li>
+                </ul>
+              </li>
             </ul>
-          </li>
-        </ul>
-      </section>
+          </div>
+        </div>
+      </div>
     </nav>
 
     <main id="mainContentContainer" class="main-content">
@@ -126,10 +136,21 @@
           <div class="medium-8 columns top-padded">
             <h2>Simply the best tool for engaging customers and driving positive ROI</h2>
             <p>Sign-up customers by the thousands, increase your PPA and generate increased visits and brand advocacy without disrupting your current email program.</p>
-            <a href="jetti-rewards-tour.pdf" class="button expanded ">TAKE THE TOUR</a>            
+            <a href="jetti-rewards-tour.pdf" class="button expanded ">TAKE THE TOUR</a>
+            
           </div>
+
+
+
+
+
+
+
+
+
+
           <div class="medium-3 text-center columns">
-            <img src="img/jetti-rewards-home-screen-small.jpg" alt="A smartphone mock-up of the Jetti Rewards home screen.">
+            <img src="img/jetti-rewards-home-screen.png" alt="A smartphone mock-up of the Jetti Rewards home screen.">
           </div>
         </div>
 
@@ -145,7 +166,7 @@
 
             <div class="row">
               <div class="medium-12 columns">
-                <h3>CUSTOMER EMAILS</h3>
+                <h3>GATHER CUSTOMER EMAILS</h3>
                 <p>Increase your ability to<br>connect with customers<br><a href="restaurant-rewards-benefits-customer-emails.html"><button class="button">LEARN MORE</button></a></p>
               </div>
             </div>
@@ -158,7 +179,7 @@
 
             <div class="row">
               <div class="medium-12 columns">
-                <h3>DRIVE UPSELLING</h3>
+                <h3>DRIVE MORE UPSELLING</h3>
                 <p>Lift ticket sizes through<br>effective item promotion<br><a href="restaurant-rewards-benefits-customer-upselling.html"><button class="button">LEARN MORE</button></a></p>
               </div>
             </div>
@@ -171,7 +192,7 @@
 
             <div class="row">
               <div class="medium-12 columns">
-                <h3>BUILD LOYALTY</h3>
+                <h3>BUILD BRAND LOYALTY</h3>
                 <p>Build customer loyalty<br>and brand advocacy<br><a href="restaurant-rewards-benefits-build-brand-loyalty.html"><button class="button">LEARN HOW</button></a></p>           
               </div>
             </div>
@@ -220,7 +241,7 @@
             </div>
           </div>
           <!-- End 1 -->
-          <div class="small-12 medium-6 columns small-page-divider hide-for-medium-up">
+          <div class="small-12 medium-6 columns small-page-divider hide-for-medium">
             <hr>
           </div>
           <!-- 2 -->
@@ -289,26 +310,26 @@
       <div class="row">
         <div class="small-12 medium-3 columns medium-push-0 text-center">
           <ul>
-            <li><a href="restaurant-rewards-program.html">10 Reasons Why</a></li>
-            <li><a href="restaurant-rewards-benefits-customer-emails.html">Customers Emails</a></li>
-            <li><a href="restaurant-rewards-benefits-customer-upselling.html">Drive Upselling</a></li>
-            <li><a href="restaurant-rewards-benefits-build-brand-loyalty.html">Build Loyalty</a></li>
+            <li><a href="" id="footerNav1"></a></li>
+            <li><a href="" id="footerNav2"></a></li>
+            <li><a href="" id="footerNav3"></a></li>
+            <li><a href="" id="footerNav4"></a></li>
           </ul>
         </div>
         <div class="small-12 medium-3 columns medium-push-0 text-center">
           <ul>
-            <li><a href="restaurant-rewards-pricing.html">Pricing</a></li>
-            <li><a href="restaurant-rewards-contact-us.html" rel="nofollow">Contact Us</a></li>
-            <li><a href="restaurant-rewards-insights-index.html">Insights</a></li>
-            <li><a href="terms-of-service.html" rel="nofollow">Terms Of Service</a></li>
+            <li><a href="" id="footerNav5"></a></li>
+            <li><a href="" id="footerNav6" rel="nofollow"></a></li>
+            <li><a href="" id="footerNav7"></a></li>
+            <li><a href="" id="footerNav8"  rel="nofollow"></a></li>
           </ul>
         </div>
         <div class="small-12 medium-3 columns medium-push-0 text-center">
           <ul>
-            <li><a href="http://jetti.rerunapp.com/myaccount" rel="nofollow">Billing</a></li>
-            <li><a href="https://www.facebook.com/jettirewards/">Facebook</a></li>
-            <li><a href="https://twitter.com/jettisystems">Twitter</a></li>
-            <li><a href="https://plus.google.com/+JettiSystems1/about">Google +</a></li>
+            <li><a href="" id="footerNav9" rel="nofollow"></a></li>
+            <li><a href="" id="footerNav10"></a></li>
+            <li><a href="" id="footerNav11"></a></li>
+            <li><a href="" id="footerNav12"></a></li>
           </ul>
         </div>          
         <div class="small-12 medium-3 columns">
@@ -323,11 +344,13 @@
         </div>
       </div>
     </footer>
-    
-    <script src="js/vendor/jquery.js"></script>
+
+    <script id="analyticsContainer"></script><!-- ANALYTICS -->
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/build.js"></script>
     <script src="js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
+    <script src="js/app.js"></script>
+
   </body>
 </html>
