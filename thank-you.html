@@ -33,55 +33,48 @@
 
     <!-- WEB FONTS -->
     <link type="text/css" rel="stylesheet" id="typeface" href="">
+    
+    <script src="js/build.js" async></script>
 
     <meta name="robots" content="noindex, nofollow">
-
-    <!-- ANALYTICS -->
-    <script id="analyticsContainer"></script>
-    <script src="js/build.js"></script>
     
   </head>
   <body>
 
-    <!-- Build.js > buildNav() -->
-    <nav id="globalNavContainer" class="global-nav">
-      <div class="title-bar" data-responsive-toggle="global-navigation" data-hide-for="medium">
-        <button class="menu-icon" type="button" data-toggle></button>
-        <div class="title-bar-title">MENU</div>
-      </div>
-      <div class="top-bar" id="global-navigation">
-        <div class="row">
-          <div class="top-bar-left">
-            <ul class="dropdown menu vertical medium-horizontal" data-dropdown-menu>
-              <li><a href="#" id="globalNavHomeButton" class="global-nav-home-button">Jetti Rewards</a></li>
+    <nav class="top-bar global-nav" data-topbar role="navigation">
+      <ul class="title-area">
+        <li class="name">
+          <h1 class="title-bar-title"><a href="index.html">Jetti</a></h1>
+        </li>
+         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="index.html"><span>Menu</span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right dogs">
+          <li><a href="restaurant-rewards-program.html">10 Reasons Why</a></li>
+          <li class="has-dropdown">
+            <a href="#">Benefits</a>
+            <ul class="dropdown">
+              <li><a href="restaurant-rewards-benefits-customer-emails.html">Customer Emails</a></li>
+              <li><a href="restaurant-rewards-benefits-customer-upselling.html">Drive Upselling</a></li>
+              <li><a href="restaurant-rewards-benefits-build-brand-loyalty.html">Build Loyalty</a></li>
             </ul>
-          </div>
-          <div class="top-bar-right">
-            <ul class="dropdown menu vertical medium-horizontal" data-dropdown-menu>
-              <li><a id="globalNavfirstButton"></a></li>
-              <li class="has-submenu">
-                <a id="globalNavsecondButton"></a>
-                <ul class="submenu menu" data-submenu>
-                  <li><a id="globalNavsecond2-1Dropdown"></a></li>
-                  <li><a id="globalNavsecond2-2Dropdown"></a></li>
-                  <li><a id="globalNavsecond2-3Dropdown"></a></li>
-                </ul>
-              </li>
-              <li><a id="globalNavthirdButton"></a></li>
-              <li><a id="globalNavfourthButton" rel="nofollow"></a></li>
-              <li><a id="globalNavsixthButton"></a></li>
-              <li class="has-submenu">
-                <a id="globalNavseventhButton"></a>
-                <ul class="submenu menu" data-submenu>
-                  <li><a id="globalNavseventh2-1Dropdown" rel="nofollow"></a></li>
-                  <li><a id="globalNavseventh2-2Dropdown" rel="nofollow"></a></li>
-                  <li><a id="globalNavseventh2-3Dropdown" rel="nofollow"></a></li>
-                </ul>
-              </li>
+          </li>
+          <li><a href="restaurant-rewards-pricing.html">Pricing</a></li>
+          <li><a href="restaurant-rewards-contact-us.html">Contact Us</a></li>
+          <li><a href="restaurant-rewards-insights-index.html">Insights</a></li>
+          <li class="has-dropdown">
+            <a href="#">Customers</a>
+            <ul class="dropdown">
+              <li><a href="https://www.jettiup.com/admin#!">Login to Admin</a></li>
+              <li><a href="http://jetti.rerunapp.com/myaccount">Billing</a></li>
+              <li><a href="https://jetti.rerunapp.com/checkout">Get Jetti Rewards</a></li>
             </ul>
-          </div>
-        </div>
-      </div>
+          </li>
+        </ul>
+      </section>
     </nav>
 
     <main id="mainContentContainer" class="main-content">
@@ -102,30 +95,30 @@
           
     </main>
 
-    <footer class="main-footer">
+<footer class="main-footer">
       <div class="row">
         <div class="small-12 medium-3 columns medium-push-0 text-center">
           <ul>
-            <li><a href="" id="footerNav1"></a></li>
-            <li><a href="" id="footerNav2"></a></li>
-            <li><a href="" id="footerNav3"></a></li>
-            <li><a href="" id="footerNav4"></a></li>
+            <li><a href="restaurant-rewards-program.html">10 Reasons Why</a></li>
+            <li><a href="restaurant-rewards-benefits-customer-emails.html">Customers Emails</a></li>
+            <li><a href="restaurant-rewards-benefits-customer-upselling.html">Drive Upselling</a></li>
+            <li><a href="restaurant-rewards-benefits-build-brand-loyalty.html">Build Loyalty</a></li>
           </ul>
         </div>
         <div class="small-12 medium-3 columns medium-push-0 text-center">
           <ul>
-            <li><a href="" id="footerNav5"></a></li>
-            <li><a href="" id="footerNav6" rel="nofollow"></a></li>
-            <li><a href="" id="footerNav7"></a></li>
-            <li><a href="" id="footerNav8"  rel="nofollow"></a></li>
+            <li><a href="restaurant-rewards-pricing.html">Pricing</a></li>
+            <li><a href="restaurant-rewards-contact-us.html" rel="nofollow">Contact Us</a></li>
+            <li><a href="restaurant-rewards-insights-index.html">Insights</a></li>
+            <li><a href="terms-of-service.html" rel="nofollow">Terms Of Service</a></li>
           </ul>
         </div>
         <div class="small-12 medium-3 columns medium-push-0 text-center">
           <ul>
-            <li><a href="" id="footerNav9" rel="nofollow"></a></li>
-            <li><a href="" id="footerNav10"></a></li>
-            <li><a href="" id="footerNav11"></a></li>
-            <li><a href="" id="footerNav12"></a></li>
+            <li><a href="http://jetti.rerunapp.com/myaccount" rel="nofollow">Billing</a></li>
+            <li><a href="https://www.facebook.com/jettirewards/">Facebook</a></li>
+            <li><a href="https://twitter.com/jettisystems">Twitter</a></li>
+            <li><a href="https://plus.google.com/+JettiSystems1/about">Google +</a></li>
           </ul>
         </div>          
         <div class="small-12 medium-3 columns">
@@ -139,7 +132,16 @@
           </address>
         </div>
       </div>
-    </footer>
+    </footer><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64533681-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>
