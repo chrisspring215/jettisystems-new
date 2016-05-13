@@ -22,9 +22,13 @@ RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://www.jettisystems.com/$1 [R=301,L]
 
-RewriteEngine on
+RewriteEngine On
 RewriteCond %{HTTP_HOST} ^jettisystems.com [NC]
 RewriteRule ^(.*)$ https://www.jettisystems.com/$1 [L,R=301,NC]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^198\.54\.115\.147
+RewriteRule (.*) https://www.jettisystems.com/$1 [R=301,L]
 
 
 Redirect 301 /contact.html https://www.jettisystems.com/restaurant-rewards-contact-us.html
