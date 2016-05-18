@@ -25,6 +25,9 @@ RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteCond %{HTTPS}s ^on(s)|
 RewriteRule ^ https%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
+
 RewriteCond %{HTTPS} off
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=302,L,NE]
 
